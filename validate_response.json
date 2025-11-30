@@ -1,0 +1,536 @@
+{
+    "status": "success",
+    "is_warning": "no",
+    "reason": null,
+    "reason_admin": null,
+    "search": {
+        "tracking_id": "71176450126321032KFYFB",
+        "flight_key": "F1EC00009-0",
+        "filter_unique_filter_code": "dac202512150100dxb202512150425585"
+    },
+    "booking_tracking_id": "71176450197321032XOBYU",
+    "tracking_id": "71176450126321032KFYFB",
+    "flight_key": "F1EC00009-0",
+    "price_change": "up",
+    "search_price": {
+        "currency": "BDT",
+        "amount": null
+    },
+    "validation_price": {
+        "currency": "BDT",
+        "amount": 96932
+    },
+    "additional_services": [],
+    "session_expire": {
+        "timestamp": 1764502877,
+        "datetime": "2025-11-30 17:41:17"
+    },
+    "serviceCharge": {
+        "currency": "BDT",
+        "reissue": 0,
+        "void": 0,
+        "refund": 0
+    },
+    "data": {
+        "tracking_id": "71176450197321032XOBYU",
+        "flight_key": "F1EC00009-",
+        "journey_type": "OneWay",
+        "result_type": "general",
+        "get_branded_fare": "no",
+        "hold_possible": "yes",
+        "ResponseID": "P73024D07-B938-4362-A9B3",
+        "Owner": "EK",
+        "OfferID": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1",
+        "OfferExpiration": "2025-11-30T11:46:14Z",
+        "PaymentExpiration": "2025-12-15T01:00:00",
+        "supplier_title": "Emirate NDC Sandbox",
+        "supplier_code": "accelyandc",
+        "supplier_uid": "F1EC00009",
+        "supplier_partner_code": "accelyandc-1-00009",
+        "search_parameter": {
+            "journey_type": "OneWay",
+            "segment": [
+                {
+                    "departure_airport_type": "AIRPORT",
+                    "departure_airport": "DAC",
+                    "arrival_airport_type": "AIRPORT",
+                    "arrival_airport": "DXB",
+                    "departure_date": "2025-12-15"
+                }
+            ],
+            "travelers_adult": 1,
+            "travelers_child": 1,
+            "travelers_child_age": [
+                9
+            ],
+            "travelers_infants": 1,
+            "travelers_infants_age": [
+                1
+            ],
+            "fare_type": null,
+            "fare_option": null,
+            "content_type": null,
+            "ptc_option": null,
+            "agency_ethnic_list": null,
+            "preferred_carrier": [],
+            "non_stop_flight": "any",
+            "baggage_option": "any",
+            "booking_class": "Economy",
+            "supplier_uid": "F1EC00009",
+            "partner_id": "7",
+            "language": "en",
+            "short_ref": "",
+            "version": null,
+            "team_profile": null
+        },
+        "pax_options": {
+            "doc_required": "yes",
+            "pax_dob_required": "yes",
+            "seat_selection": "disable",
+            "meal_selection": "disable",
+            "baggage_selection": "disable",
+            "passport_scan_selection": "active",
+            "pax_search_selection": "active",
+            "frequent_flyer_selection": "disable",
+            "wheelchair_selection": "disable",
+            "pax_email_contact_selection": "active",
+            "pax_save_option": "active",
+            "terms_selection": "check",
+            "cancellation_selection": "check"
+        },
+        "flight_group": [
+            {
+                "group": 1,
+                "flight_key": "F1EC00009-0-0",
+                "no_of_stops_title": "Direct Flight",
+                "no_of_stops": 0,
+                "flight_time": "PT5H25M",
+                "transit_time": null,
+                "routes": [
+                    {
+                        "air_segment_key": "Isgm020049c2c2713",
+                        "origin": "DAC",
+                        "departure_time": "2025-12-15 01:00",
+                        "origin_terminal": "1",
+                        "origin_airport": {
+                            "name": "Hazrat Shahjalal International Airport",
+                            "city": "Dhaka",
+                            "country": "Bangladesh",
+                            "timezone": "Asia/Dhaka"
+                        },
+                        "destination": "DXB",
+                        "arrival_time": "2025-12-15 04:25",
+                        "destination_terminal": "3",
+                        "destination_airport": {
+                            "name": "Dubai International Airport",
+                            "city": "Dubai",
+                            "country": "United Arab Emirates",
+                            "timezone": "Asia/Dubai"
+                        },
+                        "flight_date": "2025-12-15",
+                        "flight_time": "PT05H25M",
+                        "distance": "2196",
+                        "lay_over": "not-applicable",
+                        "lay_over_date": "not-applicable",
+                        "aircraft": {
+                            "code": "77W",
+                            "name": "Boeing 777-300ER Passenger",
+                            "picture": "77W.png"
+                        },
+                        "operating": {
+                            "carrier": "EK",
+                            "carrier_name": "Emirates",
+                            "carrier_logo": "EK.png",
+                            "flight_number": "585"
+                        },
+                        "marketing": {
+                            "carrier": "EK",
+                            "carrier_name": "Emirates",
+                            "carrier_logo": "EK.png",
+                            "flight_number": "585"
+                        },
+                        "booking_class": {
+                            "cabin_class": "ECONOMY",
+                            "cabin_code": "Y",
+                            "booking_code": "L",
+                            "FareBasisCode": "LAAOPBD1IN",
+                            "meal_code": null,
+                            "seat_available": 5
+                        },
+                        "baggages": {
+                            "checked": {
+                                "ADT": {
+                                    "passenger_type": "ADT",
+                                    "baggage_type": "checked",
+                                    "pieceCount": null,
+                                    "weight": "40",
+                                    "unit": "kg",
+                                    "title": "40 kg"
+                                },
+                                "CNN": {
+                                    "passenger_type": "CNN",
+                                    "baggage_type": "checked",
+                                    "pieceCount": null,
+                                    "weight": "40",
+                                    "unit": "kg",
+                                    "title": "40 kg"
+                                },
+                                "INF": {
+                                    "passenger_type": "INF",
+                                    "baggage_type": "checked",
+                                    "pieceCount": null,
+                                    "weight": "10",
+                                    "unit": "kg",
+                                    "title": "10 kg"
+                                }
+                            },
+                            "carry_on": {
+                                "ADT": {
+                                    "passenger_type": "ADT",
+                                    "baggage_type": "carry_on",
+                                    "pieceCount": "1",
+                                    "weight": null,
+                                    "unit": "pieces",
+                                    "title": "1 pieces"
+                                },
+                                "CNN": {
+                                    "passenger_type": "CNN",
+                                    "baggage_type": "carry_on",
+                                    "pieceCount": "1",
+                                    "weight": null,
+                                    "unit": "pieces",
+                                    "title": "1 pieces"
+                                },
+                                "INF": {
+                                    "passenger_type": "INF",
+                                    "baggage_type": "carry_on",
+                                    "pieceCount": "1",
+                                    "weight": null,
+                                    "unit": "pieces",
+                                    "title": "1 pieces"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "Offer": [
+            {
+                "OfferItemID": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1-1",
+                "PassengerRefs": "T1"
+            },
+            {
+                "OfferItemID": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1-2",
+                "PassengerRefs": "C1"
+            },
+            {
+                "OfferItemID": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1-3",
+                "PassengerRefs": "T1.1"
+            }
+        ],
+        "price": {
+            "currency": "BDT",
+            "total": 96932,
+            "gross_total": 96932,
+            "base_fare": 75988,
+            "tax": 20944,
+            "sell": {
+                "currency": "BDT",
+                "total": 96932,
+                "base_fare": 75988,
+                "tax": 20944
+            },
+            "price_hash": "eyJmbWciOnsiY3VycmVuY3kiOiJCRFQiLCJ0b3RhbCI6OTY5MzIsImJhc2VfZmFyZSI6NzU5ODgsInRheCI6MjA5NDR9LCJzdXBwbGllciI6eyJjdXJyZW5jeSI6IkJEVCIsInRvdGFsIjo5NjkzMiwiYmFzZV9mYXJlIjo3NTk4OCwidGF4IjoyMDk0NCwiY29taXNzaW9uX3R5cGUiOiJnZW5lcmFsIiwiY29taXNzaW9uX3ZhbHVlIjowfSwiZ3Jvc3NfZmFyZSI6eyJjdXJyZW5jeSI6IkJEVCIsInRvdGFsIjo5NjkzMiwiYmFzZV9mYXJlIjo3NTk4OCwidGF4IjoyMDk0NH19",
+            "price_breakdown": [
+                {
+                    "passenger_id": "1",
+                    "supplier_pax_id": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1-1",
+                    "passenger_type": "ADT",
+                    "primary_ptc": "ADT",
+                    "ptc_title": "Adult",
+                    "passenger_total": 1,
+                    "pax_calculate_type": "yes",
+                    "comission_type": "",
+                    "comission_value": "",
+                    "currency": "BDT",
+                    "total": 51120,
+                    "base_fare": 41058,
+                    "tax": 10062,
+                    "ticket_issue_charge": 0,
+                    "total_ticket_issue_charge": 0,
+                    "gross": {
+                        "base_fare": "41058.00",
+                        "tax": "10062.00",
+                        "discount": 0,
+                        "ait": "0.00",
+                        "service_charge": 0
+                    },
+                    "partner": {
+                        "currency": "BDT",
+                        "total": 51120,
+                        "base_fare": 41058,
+                        "tax": 10062,
+                        "gross": {
+                            "base_fare": "41058.00",
+                            "tax": "10062.00",
+                            "discount": "0.00",
+                            "ait": "0.00",
+                            "service_charge": 0
+                        },
+                        "taxBreakdown": {
+                            "BD": {
+                                "title": "BD -Embarkation Fee (Domestic/International)",
+                                "amount": "0.00"
+                            },
+                            "UT": {
+                                "title": "UT - Foreign Air Travel Tax (FATT)",
+                                "amount": "0.00"
+                            },
+                            "E5": {
+                                "title": "E5 - Value Added Tax on Embarkation Fees",
+                                "amount": "0.00"
+                            },
+                            "YQ": {
+                                "title": "YQ \u2013 Carrier-Imposed Surcharge/Fuel Surcharge",
+                                "amount": "0.00"
+                            },
+                            "YR": {
+                                "title": "YR \u2013 Another Carrier-Imposed Surcharge",
+                                "amount": "0.00"
+                            },
+                            "Other": {
+                                "title": "Others taxes",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "priceHash": "eyJmbWciOnsiY3VycmVuY3kiOiJCRFQiLCJ0b3RhbCI6IjUxMTIwLjAwIiwiYmFzZV9mYXJlIjoiNDEwNTguMDAiLCJ0YXgiOiIxMDA2Mi4wMCIsImdyb3NzIjp7ImJhc2VfZmFyZSI6IjQxMDU4LjAwIiwidGF4IjoiMTAwNjIuMDAiLCJkaXNjb3VudCI6IjAuMDAiLCJhaXQiOiIwLjAwIiwic2VydmljZV9jaGFyZ2UiOiIwLjAwIn0sImNvbmZpZyI6eyJtYXJrdXBfdHlwZSI6bnVsbCwibWFya3VwX3RpdGxlIjpudWxsLCJyZXZlbnVlIjoiMC4wMCIsInRpY2tldF9pc3N1ZV9jaGFyZ2UiOiIwLjAwIiwidG90YWxfdGlja2V0X2lzc3VlX2NoYXJnZSI6IjAuMDAiLCJjdXJyZW5jeUV4Y2hhbmdlUmF0ZSI6IjEuMDAiLCJGTUdfT3ZlcndyaXRlUnVsZXMiOltdfX0sInN1cHBsaWVyIjp7ImN1cnJlbmN5IjoiQkRUIiwidG90YWwiOiI1MTEyMC4wMCIsImJhc2VfZmFyZSI6IjQxMDU4LjAwIiwidGF4IjoiMTAwNjIuMDAiLCJncm9zcyI6eyJiYXNlX2ZhcmUiOiI0MTA1OC4wMCIsInRheCI6IjEwMDYyLjAwIiwiZGlzY291bnQiOiIwLjAwIiwiYWl0IjoiMC4wMCIsInNlcnZpY2VfY2hhcmdlIjowLCJwZXJfc2VnbWVudF9kaXNjb3VudCI6MCwic2VnbWVudF9kaXNjb3VudCI6IjAuMDAiLCJzdXBwbGllcl9zZWdtZW50X2ZlZXNDYWxjdWxhdGUiOm51bGwsInNlZ21lbnRfZGlzY291bnRfYWNjb3VudFB1cnBvc2UiOm51bGx9fSwiZ3Jvc3NfZmFyZSI6eyJjdXJyZW5jeSI6IkJEVCIsInRvdGFsIjoiNTExMjAuMDAiLCJiYXNlX2ZhcmUiOiI0MTA1OC4wMCIsInRheCI6IjEwMDYyLjAwIiwiZGlzY291bnQiOiIwLjAwIiwiYWl0IjoiMC4wMCIsInNlcnZpY2VfY2hhcmdlIjoiMC4wMCIsInBheWFibGUiOjUxMTIwLCJ0YXhCcmVha2Rvd24iOnsiQkQiOnsiYW1vdW50IjoiMC4wMCJ9LCJVVCI6eyJhbW91bnQiOiIwLjAwIn0sIkU1Ijp7ImFtb3VudCI6IjAuMDAifSwiWVEiOnsiYW1vdW50IjoiMC4wMCJ9LCJZUiI6eyJhbW91bnQiOiIwLjAwIn0sIk90aGVyIjp7ImFtb3VudCI6IjAuMDAifSwic3VwcGxpZXJUYXhEYXRhIjpbXX19LCJkaXNjb3VudF9jb21pc3Npb25fdGl0bGUiOm51bGwsImRpc2NvdW50X2NvbWlzc2lvbl9yYXRpbyI6MCwiZHluYW1pY19tYXJrdXBfdHlwZSI6bnVsbCwiZHluYW1pY19tYXJrdXBfdGl0bGUiOm51bGwsImR5bmFtaWNfbWFya3VwX3JhdGlvIjpudWxsLCJhcHBsaWNhYmxlX2NvbWlzc2lvbiI6bnVsbCwiYXBwbGljYWJsZV9keW5hbWljX21hcmt1cCI6bnVsbH0="
+                },
+                {
+                    "passenger_id": "2",
+                    "supplier_pax_id": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1-2",
+                    "passenger_type": "CNN",
+                    "primary_ptc": "CNN",
+                    "ptc_title": "Child",
+                    "passenger_total": 1,
+                    "pax_calculate_type": "yes",
+                    "comission_type": "",
+                    "comission_value": "",
+                    "currency": "BDT",
+                    "total": 38825,
+                    "base_fare": 30763,
+                    "tax": 8062,
+                    "ticket_issue_charge": 0,
+                    "total_ticket_issue_charge": 0,
+                    "gross": {
+                        "base_fare": "30763.00",
+                        "tax": "8062.00",
+                        "discount": 0,
+                        "ait": "0.00",
+                        "service_charge": 0
+                    },
+                    "partner": {
+                        "currency": "BDT",
+                        "total": 38825,
+                        "base_fare": 30763,
+                        "tax": 8062,
+                        "gross": {
+                            "base_fare": "30763.00",
+                            "tax": "8062.00",
+                            "discount": "0.00",
+                            "ait": "0.00",
+                            "service_charge": 0
+                        },
+                        "taxBreakdown": {
+                            "BD": {
+                                "title": "BD -Embarkation Fee (Domestic/International)",
+                                "amount": "0.00"
+                            },
+                            "UT": {
+                                "title": "UT - Foreign Air Travel Tax (FATT)",
+                                "amount": "0.00"
+                            },
+                            "E5": {
+                                "title": "E5 - Value Added Tax on Embarkation Fees",
+                                "amount": "0.00"
+                            },
+                            "YQ": {
+                                "title": "YQ \u2013 Carrier-Imposed Surcharge/Fuel Surcharge",
+                                "amount": "0.00"
+                            },
+                            "YR": {
+                                "title": "YR \u2013 Another Carrier-Imposed Surcharge",
+                                "amount": "0.00"
+                            },
+                            "Other": {
+                                "title": "Others taxes",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "priceHash": "eyJmbWciOnsiY3VycmVuY3kiOiJCRFQiLCJ0b3RhbCI6IjM4ODI1LjAwIiwiYmFzZV9mYXJlIjoiMzA3NjMuMDAiLCJ0YXgiOiI4MDYyLjAwIiwiZ3Jvc3MiOnsiYmFzZV9mYXJlIjoiMzA3NjMuMDAiLCJ0YXgiOiI4MDYyLjAwIiwiZGlzY291bnQiOiIwLjAwIiwiYWl0IjoiMC4wMCIsInNlcnZpY2VfY2hhcmdlIjoiMC4wMCJ9LCJjb25maWciOnsibWFya3VwX3R5cGUiOm51bGwsIm1hcmt1cF90aXRsZSI6bnVsbCwicmV2ZW51ZSI6IjAuMDAiLCJ0aWNrZXRfaXNzdWVfY2hhcmdlIjoiMC4wMCIsInRvdGFsX3RpY2tldF9pc3N1ZV9jaGFyZ2UiOiIwLjAwIiwiY3VycmVuY3lFeGNoYW5nZVJhdGUiOiIxLjAwIiwiRk1HX092ZXJ3cml0ZVJ1bGVzIjpbXX19LCJzdXBwbGllciI6eyJjdXJyZW5jeSI6IkJEVCIsInRvdGFsIjoiMzg4MjUuMDAiLCJiYXNlX2ZhcmUiOiIzMDc2My4wMCIsInRheCI6IjgwNjIuMDAiLCJncm9zcyI6eyJiYXNlX2ZhcmUiOiIzMDc2My4wMCIsInRheCI6IjgwNjIuMDAiLCJkaXNjb3VudCI6IjAuMDAiLCJhaXQiOiIwLjAwIiwic2VydmljZV9jaGFyZ2UiOjAsInBlcl9zZWdtZW50X2Rpc2NvdW50IjowLCJzZWdtZW50X2Rpc2NvdW50IjoiMC4wMCIsInN1cHBsaWVyX3NlZ21lbnRfZmVlc0NhbGN1bGF0ZSI6bnVsbCwic2VnbWVudF9kaXNjb3VudF9hY2NvdW50UHVycG9zZSI6bnVsbH19LCJncm9zc19mYXJlIjp7ImN1cnJlbmN5IjoiQkRUIiwidG90YWwiOiIzODgyNS4wMCIsImJhc2VfZmFyZSI6IjMwNzYzLjAwIiwidGF4IjoiODA2Mi4wMCIsImRpc2NvdW50IjoiMC4wMCIsImFpdCI6IjAuMDAiLCJzZXJ2aWNlX2NoYXJnZSI6IjAuMDAiLCJwYXlhYmxlIjozODgyNSwidGF4QnJlYWtkb3duIjp7IkJEIjp7ImFtb3VudCI6IjAuMDAifSwiVVQiOnsiYW1vdW50IjoiMC4wMCJ9LCJFNSI6eyJhbW91bnQiOiIwLjAwIn0sIllRIjp7ImFtb3VudCI6IjAuMDAifSwiWVIiOnsiYW1vdW50IjoiMC4wMCJ9LCJPdGhlciI6eyJhbW91bnQiOiIwLjAwIn0sInN1cHBsaWVyVGF4RGF0YSI6W119fSwiZGlzY291bnRfY29taXNzaW9uX3RpdGxlIjpudWxsLCJkaXNjb3VudF9jb21pc3Npb25fcmF0aW8iOjAsImR5bmFtaWNfbWFya3VwX3R5cGUiOm51bGwsImR5bmFtaWNfbWFya3VwX3RpdGxlIjpudWxsLCJkeW5hbWljX21hcmt1cF9yYXRpbyI6bnVsbCwiYXBwbGljYWJsZV9jb21pc3Npb24iOm51bGwsImFwcGxpY2FibGVfZHluYW1pY19tYXJrdXAiOm51bGx9"
+                },
+                {
+                    "passenger_id": "3",
+                    "supplier_pax_id": "P73024D07-B938-4362-A9B38o4rs0bwb1snq-1-3",
+                    "passenger_type": "INF",
+                    "primary_ptc": "INF",
+                    "ptc_title": "Infant without a Seat",
+                    "passenger_total": 1,
+                    "pax_calculate_type": "yes",
+                    "comission_type": "",
+                    "comission_value": "",
+                    "currency": "BDT",
+                    "total": 6987,
+                    "base_fare": 4167,
+                    "tax": 2820,
+                    "ticket_issue_charge": 0,
+                    "total_ticket_issue_charge": 0,
+                    "gross": {
+                        "base_fare": "4167.00",
+                        "tax": "2820.00",
+                        "discount": 0,
+                        "ait": "0.00",
+                        "service_charge": 0
+                    },
+                    "partner": {
+                        "currency": "BDT",
+                        "total": 6987,
+                        "base_fare": 4167,
+                        "tax": 2820,
+                        "gross": {
+                            "base_fare": "4167.00",
+                            "tax": "2820.00",
+                            "discount": "0.00",
+                            "ait": "0.00",
+                            "service_charge": 0
+                        },
+                        "taxBreakdown": {
+                            "BD": {
+                                "title": "BD -Embarkation Fee (Domestic/International)",
+                                "amount": "0.00"
+                            },
+                            "UT": {
+                                "title": "UT - Foreign Air Travel Tax (FATT)",
+                                "amount": "0.00"
+                            },
+                            "E5": {
+                                "title": "E5 - Value Added Tax on Embarkation Fees",
+                                "amount": "0.00"
+                            },
+                            "YQ": {
+                                "title": "YQ \u2013 Carrier-Imposed Surcharge/Fuel Surcharge",
+                                "amount": "0.00"
+                            },
+                            "YR": {
+                                "title": "YR \u2013 Another Carrier-Imposed Surcharge",
+                                "amount": "0.00"
+                            },
+                            "Other": {
+                                "title": "Others taxes",
+                                "amount": "0.00"
+                            }
+                        }
+                    },
+                    "priceHash": "eyJmbWciOnsiY3VycmVuY3kiOiJCRFQiLCJ0b3RhbCI6IjY5ODcuMDAiLCJiYXNlX2ZhcmUiOiI0MTY3LjAwIiwidGF4IjoiMjgyMC4wMCIsImdyb3NzIjp7ImJhc2VfZmFyZSI6IjQxNjcuMDAiLCJ0YXgiOiIyODIwLjAwIiwiZGlzY291bnQiOiIwLjAwIiwiYWl0IjoiMC4wMCIsInNlcnZpY2VfY2hhcmdlIjoiMC4wMCJ9LCJjb25maWciOnsibWFya3VwX3R5cGUiOm51bGwsIm1hcmt1cF90aXRsZSI6bnVsbCwicmV2ZW51ZSI6IjAuMDAiLCJ0aWNrZXRfaXNzdWVfY2hhcmdlIjoiMC4wMCIsInRvdGFsX3RpY2tldF9pc3N1ZV9jaGFyZ2UiOiIwLjAwIiwiY3VycmVuY3lFeGNoYW5nZVJhdGUiOiIxLjAwIiwiRk1HX092ZXJ3cml0ZVJ1bGVzIjpbXX19LCJzdXBwbGllciI6eyJjdXJyZW5jeSI6IkJEVCIsInRvdGFsIjoiNjk4Ny4wMCIsImJhc2VfZmFyZSI6IjQxNjcuMDAiLCJ0YXgiOiIyODIwLjAwIiwiZ3Jvc3MiOnsiYmFzZV9mYXJlIjoiNDE2Ny4wMCIsInRheCI6IjI4MjAuMDAiLCJkaXNjb3VudCI6IjAuMDAiLCJhaXQiOiIwLjAwIiwic2VydmljZV9jaGFyZ2UiOjAsInBlcl9zZWdtZW50X2Rpc2NvdW50IjowLCJzZWdtZW50X2Rpc2NvdW50IjoiMC4wMCIsInN1cHBsaWVyX3NlZ21lbnRfZmVlc0NhbGN1bGF0ZSI6bnVsbCwic2VnbWVudF9kaXNjb3VudF9hY2NvdW50UHVycG9zZSI6bnVsbH19LCJncm9zc19mYXJlIjp7ImN1cnJlbmN5IjoiQkRUIiwidG90YWwiOiI2OTg3LjAwIiwiYmFzZV9mYXJlIjoiNDE2Ny4wMCIsInRheCI6IjI4MjAuMDAiLCJkaXNjb3VudCI6IjAuMDAiLCJhaXQiOiIwLjAwIiwic2VydmljZV9jaGFyZ2UiOiIwLjAwIiwicGF5YWJsZSI6Njk4NywidGF4QnJlYWtkb3duIjp7IkJEIjp7ImFtb3VudCI6IjAuMDAifSwiVVQiOnsiYW1vdW50IjoiMC4wMCJ9LCJFNSI6eyJhbW91bnQiOiIwLjAwIn0sIllRIjp7ImFtb3VudCI6IjAuMDAifSwiWVIiOnsiYW1vdW50IjoiMC4wMCJ9LCJPdGhlciI6eyJhbW91bnQiOiIwLjAwIn0sInN1cHBsaWVyVGF4RGF0YSI6W119fSwiZGlzY291bnRfY29taXNzaW9uX3RpdGxlIjpudWxsLCJkaXNjb3VudF9jb21pc3Npb25fcmF0aW8iOjAsImR5bmFtaWNfbWFya3VwX3R5cGUiOm51bGwsImR5bmFtaWNfbWFya3VwX3RpdGxlIjpudWxsLCJkeW5hbWljX21hcmt1cF9yYXRpbyI6bnVsbCwiYXBwbGljYWJsZV9jb21pc3Npb24iOm51bGwsImFwcGxpY2FibGVfZHluYW1pY19tYXJrdXAiOm51bGx9"
+                }
+            ]
+        },
+        "get_pax_ptc_data": null,
+        "fare_rules": {
+            "refundable": "Review-FareRule",
+            "change_before_departure": "not-available"
+        },
+        "calendar_key": "2025-12-15-2025-12-15",
+        "calendar_flight_date": "2025-12-15",
+        "calendar_arrival_date": "2025-12-15",
+        "calendar_carrier": "EK",
+        "calendar_total_currency": "BDT",
+        "calendar_total_price": 96932,
+        "calendar_total_sell": 96932,
+        "calendar_supplier_currency": null,
+        "calendar_supplier_amount": null,
+        "calendar_fmg_amount": null,
+        "total_price": 96932,
+        "filter": {
+            "id": "F1EC00009-0",
+            "price": 96932,
+            "journey_duration": "PT5H25M",
+            "journey_duration_seconds": 19500,
+            "layover_duration": "PT0H0M",
+            "layover_duration_seconds": 0,
+            "carrier_operating": "EK",
+            "carrier_marketing": "EK",
+            "aircraft": "77W",
+            "aircraft_name": "Boeing 777-300ER Passenger",
+            "cabin_class": "ECONOMY",
+            "connecting_airport": [],
+            "total_segment_count": 1,
+            "no_of_stops": 0,
+            "departure_timing_slot": "midnight",
+            "departure_departure_time": "2025-12-15 01:00",
+            "arrival_timing_slot": "early-morning",
+            "arrival_departure_time": "2025-12-15 04:25",
+            "refund": "Review-FareRule",
+            "baggage_value": "kg",
+            "baggage_unit": null,
+            "baggage_title": "no-baggage",
+            "create_baggage_data_array": null
+        },
+        "filter_unique_filter_code": "dac202512150100dxb202512150425585",
+        "destination_reach_time": "PT",
+        "destination_reach_timestamp": null
+    },
+    "terms": {
+        "status": "disable",
+        "text": null
+    },
+    "cancellation_terms": {
+        "status": "disable",
+        "text": null
+    },
+    "search_parameter": {
+        "journey_type": "OneWay",
+        "segment": [
+            {
+                "departure_airport_type": "AIRPORT",
+                "departure_airport": "DAC",
+                "arrival_airport_type": "AIRPORT",
+                "arrival_airport": "DXB",
+                "departure_date": "2025-12-15"
+            }
+        ],
+        "travelers_adult": 1,
+        "travelers_child": 1,
+        "travelers_child_age": [
+            9
+        ],
+        "travelers_infants": 1,
+        "travelers_infants_age": [
+            1
+        ],
+        "fare_type": null,
+        "fare_option": null,
+        "content_type": null,
+        "ptc_option": null,
+        "agency_ethnic_list": null,
+        "preferred_carrier": [],
+        "non_stop_flight": "any",
+        "baggage_option": "any",
+        "booking_class": "Economy",
+        "supplier_uid": "F1EC00009",
+        "partner_id": "7",
+        "language": "en",
+        "short_ref": "",
+        "version": null,
+        "team_profile": null
+    },
+    "isDomestic_Flight": false,
+    "passenger_data": null,
+    "available_addon_service": {
+        "baggage_option": null,
+        "seat_option_option": null,
+        "meal": null
+    }
+}
