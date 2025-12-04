@@ -1,0 +1,1568 @@
+{
+    "status": "success",
+    "reason": "Ticket Issued Successfully",
+    "reason_admin": "Ticket Issued Successfully",
+    "InnoPush": null,
+    "tracking_id": "71176484323917127WSD35",
+    "booking_status": "confirm",
+    "pax_ticket_data": null,
+    "supplier_confirmation_id": "EK176HDWDEWA7",
+    "past_booking_details": {
+        "last_update": "1764843394",
+        "tracking_id": "71176484323917127WSD35",
+        "booking_id": "FL2504DELHAASL",
+        "supplier_confirmation_id": "EK176HDWDEWA7",
+        "airlines_pnr": "NBNKIS",
+        "service_type": "FLIGHT",
+        "status": "confirm",
+        "booking_status": "confirm",
+        "generated_date": "2025-12-04"
+    },
+    "Execute_Data": {
+        "status": "success",
+        "reason": "Ticket Issued Successfully",
+        "reason_admin": "Ticket Issued Successfully",
+        "tracking_id": "71176484323917127WSD35",
+        "booking_status": "confirm",
+        "booking_supplier_status": "confirm",
+        "supplier_confirmation_id": "EK176HDWDEWA7",
+        "responses": {
+            "Order": {
+                "@attributes": {
+                    "OrderID": "EK176HDWDEWA7",
+                    "Owner": "EK"
+                },
+                "BookingReferences": {
+                    "BookingReference": [
+                        {
+                            "ID": "9DWDEW",
+                            "OtherID": "F1"
+                        },
+                        {
+                            "ID": "NBNKIS",
+                            "AirlineID": "EK"
+                        }
+                    ]
+                },
+                "TotalOrderPrice": {
+                    "DetailCurrencyPrice": {
+                        "Total": "90057"
+                    }
+                },
+                "Status": {
+                    "StatusCode": "702"
+                },
+                "Payments": {
+                    "Payment": {
+                        "Type": "CA",
+                        "Status": {
+                            "StatusCode": "707"
+                        },
+                        "Amount": {
+                            "SimpleCurrencyPrice": "90057"
+                        },
+                        "Method": {
+                            "CashMethod": []
+                        },
+                        "OrderItemID": [
+                            "PA32969B7-6C9B-4AB0-80EEph63r26pjx8f9-1-1",
+                            "PA32969B7-6C9B-4AB0-80EEph63r26pjx8f9-1-2"
+                        ]
+                    }
+                },
+                "OrderItems": {
+                    "OrderItem": [
+                        {
+                            "@attributes": {
+                                "OrderItemID": "PA32969B7-6C9B-4AB0-80EEph63r26pjx8f9-1-1",
+                                "Timestamp": "2025-12-04T05:15:00"
+                            },
+                            "PriceDetail": {
+                                "TotalAmount": {
+                                    "DetailCurrencyPrice": {
+                                        "Total": "51183"
+                                    }
+                                },
+                                "BaseAmount": "41115",
+                                "Surcharges": {
+                                    "Surcharge": {
+                                        "Total": "1119"
+                                    }
+                                },
+                                "Taxes": {
+                                    "Total": "10068"
+                                }
+                            },
+                            "Service": [
+                                {
+                                    "@attributes": {
+                                        "ServiceID": "BAGGAGESRV1-T1"
+                                    },
+                                    "PassengerRef": "T1",
+                                    "ServiceDefinitionRef": "BASRV7BC31E20"
+                                },
+                                {
+                                    "@attributes": {
+                                        "ServiceID": "BAGGAGESRV2-T1"
+                                    },
+                                    "PassengerRef": "T1",
+                                    "ServiceDefinitionRef": "BASRV3167DB2C-CO"
+                                },
+                                {
+                                    "@attributes": {
+                                        "ServiceID": "SRV1-T1-S3",
+                                        "ServiceStatus": "HK"
+                                    },
+                                    "PassengerRef": "T1",
+                                    "SegmentRef": "S3"
+                                }
+                            ],
+                            "TimeLimits": {
+                                "PaymentTimeLimit": {
+                                    "@attributes": {
+                                        "Timestamp": "2025-12-15T01:00:00"
+                                    }
+                                },
+                                "TicketingTimeLimits": {
+                                    "@attributes": {
+                                        "Timestamp": "2025-12-15T01:00:00"
+                                    }
+                                }
+                            },
+                            "OrderItemDetails": {
+                                "OrderItemDetail": {
+                                    "OrderCommision": {
+                                        "Percentage": "7.00",
+                                        "Code": "RC"
+                                    }
+                                }
+                            },
+                            "FareDetail": {
+                                "FareIndicatorCode": "0",
+                                "PassengerRefs": "T1",
+                                "Price": {
+                                    "TotalAmount": {
+                                        "DetailCurrencyPrice": {
+                                            "Total": "51183"
+                                        }
+                                    },
+                                    "BaseAmount": "41115",
+                                    "FareFiledIn": {
+                                        "BaseAmount": "33500",
+                                        "ExchangeRate": "122.730000"
+                                    },
+                                    "Surcharges": {
+                                        "Surcharge": {
+                                            "Total": "1119",
+                                            "Breakdown": {
+                                                "Fee": [
+                                                    {
+                                                        "Amount": "319",
+                                                        "Designator": "Q"
+                                                    },
+                                                    {
+                                                        "Amount": "800",
+                                                        "Designator": "Q"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "Taxes": {
+                                        "Total": "10068",
+                                        "Breakdown": {
+                                            "Tax": [
+                                                {
+                                                    "Amount": "500",
+                                                    "TaxCode": "BD",
+                                                    "Description": "Embarkation Fee"
+                                                },
+                                                {
+                                                    "Amount": "444",
+                                                    "TaxCode": "E5",
+                                                    "Description": "VAT on Embarkation Fee"
+                                                },
+                                                {
+                                                    "Amount": "2500",
+                                                    "TaxCode": "OW",
+                                                    "Description": "Domestic/International Excise Duty Tax"
+                                                },
+                                                {
+                                                    "Amount": "1228",
+                                                    "TaxCode": "P7",
+                                                    "Description": "Airport Development Fee - Bangladesh"
+                                                },
+                                                {
+                                                    "Amount": "1228",
+                                                    "TaxCode": "P8"
+                                                },
+                                                {
+                                                    "Amount": "4000",
+                                                    "TaxCode": "UT",
+                                                    "Description": "Foreign Travel Tax"
+                                                },
+                                                {
+                                                    "Amount": "168",
+                                                    "TaxCode": "ZR",
+                                                    "Description": "Intl Advanced Psgr Information Fee"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "FareComponent": {
+                                    "Price": {
+                                        "TotalAmount": {
+                                            "DetailCurrencyPrice": {
+                                                "Total": "41129"
+                                            }
+                                        },
+                                        "BaseAmount": "33512",
+                                        "FareFiledIn": {
+                                            "BaseAmount": "32600"
+                                        },
+                                        "Surcharges": {
+                                            "Surcharge": {
+                                                "Total": "912",
+                                                "Breakdown": {
+                                                    "Fee": [
+                                                        {
+                                                            "Amount": "260",
+                                                            "Designator": "Q"
+                                                        },
+                                                        {
+                                                            "Amount": "652",
+                                                            "Designator": "Q"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "Taxes": {
+                                            "Total": "0"
+                                        }
+                                    },
+                                    "FareBasis": {
+                                        "FareBasisCode": {
+                                            "@attributes": {
+                                                "refs": "FG1"
+                                            },
+                                            "Code": "LAAOPBD1"
+                                        },
+                                        "RBD": "L",
+                                        "CabinType": {
+                                            "CabinTypeCode": "Y",
+                                            "CabinTypeName": "Economy"
+                                        }
+                                    },
+                                    "TicketDesig": "NDC2",
+                                    "FareRules": {
+                                        "Penalty": {
+                                            "@attributes": {
+                                                "RefundableInd": "true",
+                                                "CancelFeeInd": "true",
+                                                "ChangeFeeInd": "true"
+                                            },
+                                            "Details": {
+                                                "Detail": [
+                                                    {
+                                                        "Type": "Change",
+                                                        "Application": "2",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "5000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Change",
+                                                        "Application": "3",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "5000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Change",
+                                                        "Application": "1",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "10000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "@attributes": {
+                                                            "refs": "RM6C7532A5"
+                                                        },
+                                                        "Type": "Change"
+                                                    },
+                                                    {
+                                                        "Type": "Cancel",
+                                                        "Application": "2",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "7500",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Cancel",
+                                                        "Application": "1",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "15000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "@attributes": {
+                                                            "refs": "RM7B326E57"
+                                                        },
+                                                        "Type": "Cancel"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "Ticketing": {
+                                            "Endorsements": {
+                                                "Endorsement": [
+                                                    "NON-END/SAVER",
+                                                    "REWARD UPGDS  ALLOWED"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "SegmentRefs": "S3"
+                                },
+                                "FlightMileage": {
+                                    "Value": "2196"
+                                },
+                                "TourCode": "ZZNDC2ZZ"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "OrderItemID": "PA32969B7-6C9B-4AB0-80EEph63r26pjx8f9-1-2",
+                                "Timestamp": "2025-12-04T05:15:00"
+                            },
+                            "PriceDetail": {
+                                "TotalAmount": {
+                                    "DetailCurrencyPrice": {
+                                        "Total": "38874"
+                                    }
+                                },
+                                "BaseAmount": "30806",
+                                "Surcharges": {
+                                    "Surcharge": {
+                                        "Total": "839"
+                                    }
+                                },
+                                "Taxes": {
+                                    "Total": "8068"
+                                }
+                            },
+                            "Service": [
+                                {
+                                    "@attributes": {
+                                        "ServiceID": "BAGGAGESRV3-T2"
+                                    },
+                                    "PassengerRef": "T2",
+                                    "ServiceDefinitionRef": "BASRV7BC31E20"
+                                },
+                                {
+                                    "@attributes": {
+                                        "ServiceID": "BAGGAGESRV4-T2"
+                                    },
+                                    "PassengerRef": "T2",
+                                    "ServiceDefinitionRef": "BASRV3167DB2C-CO"
+                                },
+                                {
+                                    "@attributes": {
+                                        "ServiceID": "SRV2-T2-S3",
+                                        "ServiceStatus": "HK"
+                                    },
+                                    "PassengerRef": "T2",
+                                    "SegmentRef": "S3"
+                                }
+                            ],
+                            "TimeLimits": {
+                                "PaymentTimeLimit": {
+                                    "@attributes": {
+                                        "Timestamp": "2025-12-15T01:00:00"
+                                    }
+                                },
+                                "TicketingTimeLimits": {
+                                    "@attributes": {
+                                        "Timestamp": "2025-12-15T01:00:00"
+                                    }
+                                }
+                            },
+                            "OrderItemDetails": {
+                                "OrderItemDetail": {
+                                    "OrderCommision": {
+                                        "Percentage": "7.00",
+                                        "Code": "RC"
+                                    }
+                                }
+                            },
+                            "FareDetail": {
+                                "FareIndicatorCode": "0",
+                                "PassengerRefs": "T2",
+                                "Price": {
+                                    "TotalAmount": {
+                                        "DetailCurrencyPrice": {
+                                            "Total": "38874"
+                                        }
+                                    },
+                                    "BaseAmount": "30806",
+                                    "FareFiledIn": {
+                                        "BaseAmount": "25100",
+                                        "ExchangeRate": "122.730000"
+                                    },
+                                    "Surcharges": {
+                                        "Surcharge": {
+                                            "Total": "839",
+                                            "Breakdown": {
+                                                "Fee": [
+                                                    {
+                                                        "Amount": "239",
+                                                        "Designator": "Q"
+                                                    },
+                                                    {
+                                                        "Amount": "600",
+                                                        "Designator": "Q"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "Taxes": {
+                                        "Total": "8068",
+                                        "Breakdown": {
+                                            "Tax": [
+                                                {
+                                                    "Amount": "500",
+                                                    "TaxCode": "BD",
+                                                    "Description": "Embarkation Fee"
+                                                },
+                                                {
+                                                    "Amount": "444",
+                                                    "TaxCode": "E5",
+                                                    "Description": "VAT on Embarkation Fee"
+                                                },
+                                                {
+                                                    "Amount": "2500",
+                                                    "TaxCode": "OW",
+                                                    "Description": "Domestic/International Excise Duty Tax"
+                                                },
+                                                {
+                                                    "Amount": "1228",
+                                                    "TaxCode": "P7",
+                                                    "Description": "Airport Development Fee - Bangladesh"
+                                                },
+                                                {
+                                                    "Amount": "1228",
+                                                    "TaxCode": "P8"
+                                                },
+                                                {
+                                                    "Amount": "168",
+                                                    "TaxCode": "ZR",
+                                                    "Description": "Intl Advanced Psgr Information Fee"
+                                                },
+                                                {
+                                                    "Amount": "2000",
+                                                    "TaxCode": "UT",
+                                                    "Description": "Foreign Travel Tax"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "FareComponent": {
+                                    "Price": {
+                                        "TotalAmount": {
+                                            "DetailCurrencyPrice": {
+                                                "Total": "30846"
+                                            }
+                                        },
+                                        "BaseAmount": "25134",
+                                        "FareFiledIn": {
+                                            "BaseAmount": "24450"
+                                        },
+                                        "Surcharges": {
+                                            "Surcharge": {
+                                                "Total": "683",
+                                                "Breakdown": {
+                                                    "Fee": [
+                                                        {
+                                                            "Amount": "195",
+                                                            "Designator": "Q"
+                                                        },
+                                                        {
+                                                            "Amount": "488",
+                                                            "Designator": "Q"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        "Taxes": {
+                                            "Total": "0"
+                                        }
+                                    },
+                                    "FareBasis": {
+                                        "FareBasisCode": {
+                                            "@attributes": {
+                                                "refs": "FG2"
+                                            },
+                                            "Code": "LAAOPBD1CH"
+                                        },
+                                        "RBD": "L",
+                                        "CabinType": {
+                                            "CabinTypeCode": "Y",
+                                            "CabinTypeName": "Economy"
+                                        }
+                                    },
+                                    "TicketDesig": "NDC2",
+                                    "FareRules": {
+                                        "Penalty": {
+                                            "@attributes": {
+                                                "RefundableInd": "true",
+                                                "CancelFeeInd": "true",
+                                                "ChangeFeeInd": "true"
+                                            },
+                                            "Details": {
+                                                "Detail": [
+                                                    {
+                                                        "Type": "Change",
+                                                        "Application": "2",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "5000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Change",
+                                                        "Application": "3",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "5000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Change",
+                                                        "Application": "1",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "10000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "@attributes": {
+                                                            "refs": "RM6C7532A5"
+                                                        },
+                                                        "Type": "Change"
+                                                    },
+                                                    {
+                                                        "Type": "Cancel",
+                                                        "Application": "2",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "7500",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Cancel",
+                                                        "Application": "1",
+                                                        "Amounts": {
+                                                            "Amount": {
+                                                                "CurrencyAmountValue": "15000",
+                                                                "AmountApplication": "MAX"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "@attributes": {
+                                                            "refs": "RM7B326E57"
+                                                        },
+                                                        "Type": "Cancel"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "Ticketing": {
+                                            "Endorsements": {
+                                                "Endorsement": [
+                                                    "NON-END/SAVER",
+                                                    "REWARD UPGDS  ALLOWED"
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "SegmentRefs": "S3"
+                                },
+                                "FlightMileage": {
+                                    "Value": "2196"
+                                },
+                                "TourCode": "ZZNDC2ZZ"
+                            }
+                        }
+                    ]
+                }
+            },
+            "TicketDocInfos": {
+                "TicketDocInfo": [
+                    {
+                        "AgentIDs": {
+                            "AgentID": {
+                                "Type": "706",
+                                "ID": "42302676"
+                            }
+                        },
+                        "IssuingAirlineInfo": {
+                            "AirlineName": "Emirates",
+                            "Place": "Dhaka, BD"
+                        },
+                        "TicketDocument": {
+                            "TicketDocNbr": "17657633003356",
+                            "Type": "702",
+                            "NumberofBooklets": "1",
+                            "DateOfIssue": "2025-12-04",
+                            "TimeOfIssue": "16:16",
+                            "TicketingLocation": "DAC",
+                            "CouponInfo": {
+                                "CouponNumber": "1",
+                                "CouponReference": "S3",
+                                "FareBasisCode": {
+                                    "Code": "LAAOPBD1"
+                                },
+                                "CouponMedia": "Electronic",
+                                "CouponValid": {
+                                    "EffectiveDatePeriod": {
+                                        "Effective": "2025-12-15",
+                                        "Expiration": "2025-12-15"
+                                    }
+                                },
+                                "Status": "I",
+                                "CurrentAirlineInfo": {
+                                    "DepartureDateTime": {
+                                        "@attributes": {
+                                            "ShortDate": "2025-12-15",
+                                            "Time": "01:00"
+                                        }
+                                    },
+                                    "ArrivalDateTime": {
+                                        "@attributes": {
+                                            "ShortDate": "2025-12-15",
+                                            "Time": "04:25"
+                                        }
+                                    },
+                                    "Departure": {
+                                        "AirportCode": "DAC",
+                                        "Date": "2025-12-15",
+                                        "Time": "01:00",
+                                        "AirportName": "Dhaka, BD",
+                                        "Terminal": {
+                                            "Name": "1"
+                                        }
+                                    },
+                                    "Arrival": {
+                                        "AirportCode": "DXB",
+                                        "Date": "2025-12-15",
+                                        "Time": "04:25",
+                                        "ChangeOfDay": "0",
+                                        "AirportName": "Dubai International, AE",
+                                        "Terminal": {
+                                            "Name": "3"
+                                        }
+                                    },
+                                    "MarketingCarrier": {
+                                        "AirlineID": "EK",
+                                        "Name": "Emirates",
+                                        "FlightNumber": "0585",
+                                        "ResBookDesigCode": "L"
+                                    },
+                                    "Equipment": {
+                                        "AircraftCode": "77L",
+                                        "Name": "Boeing 777-200LR"
+                                    },
+                                    "Status": "HK"
+                                },
+                                "ValidatingAirline": "EK",
+                                "AddlBaggageInfo": {
+                                    "AllowableBag": {
+                                        "@attributes": {
+                                            "Number": "40",
+                                            "Type": "K"
+                                        }
+                                    }
+                                }
+                            },
+                            "ReportingType": "BSP"
+                        },
+                        "Price": {
+                            "@attributes": {
+                                "refs": "TOUR5AA1D0BD FCALCA7D5631D"
+                            },
+                            "Total": "51183",
+                            "Details": {
+                                "Detail": {
+                                    "Application": "Base Fare",
+                                    "Amount": "39996"
+                                }
+                            },
+                            "Taxes": {
+                                "Total": "10068",
+                                "Breakdown": {
+                                    "Tax": [
+                                        {
+                                            "Amount": "500",
+                                            "TaxCode": "BD",
+                                            "Description": "Embarkation Fee"
+                                        },
+                                        {
+                                            "Amount": "444",
+                                            "TaxCode": "E5",
+                                            "Description": "VAT on Embarkation Fee"
+                                        },
+                                        {
+                                            "Amount": "2500",
+                                            "TaxCode": "OW",
+                                            "Description": "Domestic/International Excise Duty Tax"
+                                        },
+                                        {
+                                            "Amount": "1228",
+                                            "TaxCode": "P7",
+                                            "Description": "Airport Development Fee - Bangladesh"
+                                        },
+                                        {
+                                            "Amount": "1228",
+                                            "TaxCode": "P8"
+                                        },
+                                        {
+                                            "Amount": "4000",
+                                            "TaxCode": "UT",
+                                            "Description": "Foreign Travel Tax"
+                                        },
+                                        {
+                                            "Amount": "168",
+                                            "TaxCode": "ZR",
+                                            "Description": "Intl Advanced Psgr Information Fee"
+                                        }
+                                    ]
+                                }
+                            },
+                            "Fees": {
+                                "Total": "1119",
+                                "Breakdown": {
+                                    "Fee": [
+                                        {
+                                            "Amount": "319",
+                                            "Designator": "Q"
+                                        },
+                                        {
+                                            "Amount": "800",
+                                            "Designator": "Q"
+                                        }
+                                    ]
+                                }
+                            },
+                            "PassengerReferences": "T1"
+                        },
+                        "PassengerReference": "T1"
+                    },
+                    {
+                        "AgentIDs": {
+                            "AgentID": {
+                                "Type": "706",
+                                "ID": "42302676"
+                            }
+                        },
+                        "IssuingAirlineInfo": {
+                            "AirlineName": "Emirates",
+                            "Place": "Dhaka, BD"
+                        },
+                        "TicketDocument": {
+                            "TicketDocNbr": "17657633003360",
+                            "Type": "702",
+                            "NumberofBooklets": "1",
+                            "DateOfIssue": "2025-12-04",
+                            "TimeOfIssue": "16:16",
+                            "TicketingLocation": "DAC",
+                            "CouponInfo": {
+                                "CouponNumber": "1",
+                                "CouponReference": "S3",
+                                "FareBasisCode": {
+                                    "Code": "LAAOPBD1CH"
+                                },
+                                "CouponMedia": "Electronic",
+                                "CouponValid": {
+                                    "EffectiveDatePeriod": {
+                                        "Effective": "2025-12-15",
+                                        "Expiration": "2025-12-15"
+                                    }
+                                },
+                                "Status": "I",
+                                "CurrentAirlineInfo": {
+                                    "DepartureDateTime": {
+                                        "@attributes": {
+                                            "ShortDate": "2025-12-15",
+                                            "Time": "01:00"
+                                        }
+                                    },
+                                    "ArrivalDateTime": {
+                                        "@attributes": {
+                                            "ShortDate": "2025-12-15",
+                                            "Time": "04:25"
+                                        }
+                                    },
+                                    "Departure": {
+                                        "AirportCode": "DAC",
+                                        "Date": "2025-12-15",
+                                        "Time": "01:00",
+                                        "AirportName": "Dhaka, BD",
+                                        "Terminal": {
+                                            "Name": "1"
+                                        }
+                                    },
+                                    "Arrival": {
+                                        "AirportCode": "DXB",
+                                        "Date": "2025-12-15",
+                                        "Time": "04:25",
+                                        "ChangeOfDay": "0",
+                                        "AirportName": "Dubai International, AE",
+                                        "Terminal": {
+                                            "Name": "3"
+                                        }
+                                    },
+                                    "MarketingCarrier": {
+                                        "AirlineID": "EK",
+                                        "Name": "Emirates",
+                                        "FlightNumber": "0585",
+                                        "ResBookDesigCode": "L"
+                                    },
+                                    "Equipment": {
+                                        "AircraftCode": "77L",
+                                        "Name": "Boeing 777-200LR"
+                                    },
+                                    "Status": "HK"
+                                },
+                                "ValidatingAirline": "EK",
+                                "AddlBaggageInfo": {
+                                    "AllowableBag": {
+                                        "@attributes": {
+                                            "Number": "40",
+                                            "Type": "K"
+                                        }
+                                    }
+                                }
+                            },
+                            "ReportingType": "BSP"
+                        },
+                        "Price": {
+                            "@attributes": {
+                                "refs": "TOUR5AA1D0BD FCALC38AD926E"
+                            },
+                            "Total": "38874",
+                            "Details": {
+                                "Detail": {
+                                    "Application": "Base Fare",
+                                    "Amount": "29967"
+                                }
+                            },
+                            "Taxes": {
+                                "Total": "8068",
+                                "Breakdown": {
+                                    "Tax": [
+                                        {
+                                            "Amount": "500",
+                                            "TaxCode": "BD",
+                                            "Description": "Embarkation Fee"
+                                        },
+                                        {
+                                            "Amount": "444",
+                                            "TaxCode": "E5",
+                                            "Description": "VAT on Embarkation Fee"
+                                        },
+                                        {
+                                            "Amount": "2500",
+                                            "TaxCode": "OW",
+                                            "Description": "Domestic/International Excise Duty Tax"
+                                        },
+                                        {
+                                            "Amount": "1228",
+                                            "TaxCode": "P7",
+                                            "Description": "Airport Development Fee - Bangladesh"
+                                        },
+                                        {
+                                            "Amount": "1228",
+                                            "TaxCode": "P8"
+                                        },
+                                        {
+                                            "Amount": "168",
+                                            "TaxCode": "ZR",
+                                            "Description": "Intl Advanced Psgr Information Fee"
+                                        },
+                                        {
+                                            "Amount": "2000",
+                                            "TaxCode": "UT",
+                                            "Description": "Foreign Travel Tax"
+                                        }
+                                    ]
+                                }
+                            },
+                            "Fees": {
+                                "Total": "839",
+                                "Breakdown": {
+                                    "Fee": [
+                                        {
+                                            "Amount": "239",
+                                            "Designator": "Q"
+                                        },
+                                        {
+                                            "Amount": "600",
+                                            "Designator": "Q"
+                                        }
+                                    ]
+                                }
+                            },
+                            "PassengerReferences": "T2"
+                        },
+                        "PassengerReference": "T2"
+                    }
+                ]
+            },
+            "DataLists": {
+                "PassengerList": {
+                    "Passenger": [
+                        {
+                            "@attributes": {
+                                "PassengerID": "T1"
+                            },
+                            "PTC": "ADT",
+                            "Birthdate": "1991-10-24",
+                            "Individual": {
+                                "Birthdate": "1991-10-24",
+                                "Gender": "Male",
+                                "NameTitle": "MR",
+                                "GivenName": "RAKIB",
+                                "Surname": "HASAN"
+                            },
+                            "IdentityDocument": {
+                                "IdentityDocumentNumber": "A1235121",
+                                "IdentityDocumentType": "PT",
+                                "IssuingCountryCode": "BD",
+                                "CitizenshipCountryCode": "BD",
+                                "IssueDate": "2022-12-31",
+                                "ExpiryDate": "2030-04-25",
+                                "Birthdate": "1991-10-24",
+                                "Gender": "Male",
+                                "GivenName": "RAKIB",
+                                "Surname": "HASAN"
+                            },
+                            "ContactInfoRef": "CI1"
+                        },
+                        {
+                            "@attributes": {
+                                "PassengerID": "T2"
+                            },
+                            "PTC": "CNN",
+                            "Birthdate": "2016-05-24",
+                            "Individual": {
+                                "Birthdate": "2016-05-24",
+                                "Gender": "Male",
+                                "NameTitle": "MSTR",
+                                "GivenName": "CHILD",
+                                "Surname": "TEST"
+                            },
+                            "IdentityDocument": {
+                                "IdentityDocumentNumber": "A1235124",
+                                "IdentityDocumentType": "PT",
+                                "IssuingCountryCode": "BD",
+                                "CitizenshipCountryCode": "BD",
+                                "IssueDate": "2022-12-31",
+                                "ExpiryDate": "2030-04-25",
+                                "Birthdate": "2016-05-24",
+                                "Gender": "Male",
+                                "GivenName": "CHILD",
+                                "Surname": "TEST"
+                            },
+                            "ContactInfoRef": "CI1"
+                        }
+                    ]
+                },
+                "ContactList": {
+                    "ContactInformation": {
+                        "@attributes": {
+                            "ContactID": "CI1"
+                        },
+                        "ContactProvided": [
+                            {
+                                "Phone": {
+                                    "Label": "Mobile",
+                                    "PhoneNumber": "9301332509855"
+                                }
+                            },
+                            {
+                                "Phone": {
+                                    "Label": "Business",
+                                    "PhoneNumber": "9301332509855"
+                                }
+                            },
+                            {
+                                "Phone": {
+                                    "Label": "Operational",
+                                    "PhoneNumber": "931722286888"
+                                }
+                            },
+                            {
+                                "EmailAddress": {
+                                    "Label": "Home",
+                                    "EmailAddressValue": "SANDBOX@INNOVATESOLUTION.COM"
+                                }
+                            },
+                            {
+                                "EmailAddress": {
+                                    "Label": "Operational",
+                                    "EmailAddressValue": "SAID@IBOS.IO"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "BaggageAllowanceList": {
+                    "BaggageAllowance": [
+                        {
+                            "@attributes": {
+                                "BaggageAllowanceID": "BA606C8C60-CO"
+                            },
+                            "BaggageCategory": "CarryOn",
+                            "AllowanceDescription": {
+                                "ApplicableParty": "Traveler",
+                                "Descriptions": {
+                                    "Description": {
+                                        "Text": "CARRY7KG 15LB UPTO45LI 115LCM"
+                                    }
+                                }
+                            },
+                            "PieceAllowance": {
+                                "ApplicableParty": "Traveler",
+                                "TotalQuantity": "1",
+                                "PieceMeasurements": {
+                                    "@attributes": {
+                                        "Quantity": "1"
+                                    }
+                                }
+                            },
+                            "BaggageDeterminingCarrier": {
+                                "AirlineID": "EK"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "BaggageAllowanceID": "BA7721846C"
+                            },
+                            "BaggageCategory": "Checked",
+                            "AllowanceDescription": {
+                                "ApplicableParty": "Traveler",
+                                "Descriptions": {
+                                    "Description": {
+                                        "Text": "CHECKED ALLOWANCE"
+                                    }
+                                }
+                            },
+                            "WeightAllowance": {
+                                "MaximumWeight": {
+                                    "Value": "40",
+                                    "UOM": "KG"
+                                }
+                            },
+                            "BaggageDeterminingCarrier": {
+                                "AirlineID": "EK"
+                            }
+                        }
+                    ]
+                },
+                "DisclosureList": {
+                    "Disclosures": {
+                        "@attributes": {
+                            "ListKey": "GDPR"
+                        },
+                        "Description": {
+                            "Text": "Data Protection Notice: Your personal data will be processed in accordance with the applicable carriers privacy policy and, if your booking is made via a reservation system provider (\"GDS\" ), with its privacy policy. These are available at https://www.iatatravelcentre.com/privacy.htm or from the carrier, GDS or TSP directly. You should read this documentation, which applies to your booking and specifies, for example, how your personal data is collected, stored, used, disclosed and transferred.",
+                            "Link": "https://www.iatatravelcentre.com/privacy.htm"
+                        }
+                    }
+                },
+                "FareList": {
+                    "FareGroup": [
+                        {
+                            "@attributes": {
+                                "ListKey": "FG1",
+                                "refs": "FRKCD9D86BA"
+                            },
+                            "Fare": {
+                                "FareCode": "749"
+                            },
+                            "FareBasisCode": {
+                                "Code": "LAAOPBD1"
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "ListKey": "FG2",
+                                "refs": "FRK8729BFF8"
+                            },
+                            "Fare": {
+                                "FareCode": "749"
+                            },
+                            "FareBasisCode": {
+                                "Code": "LAAOPBD1CH"
+                            }
+                        }
+                    ]
+                },
+                "FlightSegmentList": {
+                    "FlightSegment": {
+                        "@attributes": {
+                            "SegmentKey": "S3",
+                            "ElectronicTicketInd": "true",
+                            "SecureFlight": "false"
+                        },
+                        "Departure": {
+                            "AirportCode": "DAC",
+                            "Date": "2025-12-15",
+                            "Time": "01:00",
+                            "AirportName": "Dhaka, BD",
+                            "Terminal": {
+                                "Name": "1"
+                            }
+                        },
+                        "Arrival": {
+                            "AirportCode": "DXB",
+                            "Date": "2025-12-15",
+                            "Time": "04:25",
+                            "AirportName": "Dubai International, AE",
+                            "Terminal": {
+                                "Name": "3"
+                            }
+                        },
+                        "MarketingCarrier": {
+                            "AirlineID": "EK",
+                            "Name": "Emirates",
+                            "FlightNumber": "0585"
+                        },
+                        "Equipment": {
+                            "AircraftCode": "77L",
+                            "Name": "Boeing 777-200LR"
+                        },
+                        "ClassOfService": {
+                            "Code": "L"
+                        },
+                        "FlightDetail": {
+                            "FlightDistance": {
+                                "Value": "2196",
+                                "UOM": "Miles"
+                            },
+                            "FlightDuration": {
+                                "Value": "PT5H25M"
+                            },
+                            "Stops": {
+                                "StopQuantity": "0"
+                            },
+                            "ResDateTime": {
+                                "Date": "2025-12-04"
+                            }
+                        }
+                    }
+                },
+                "FlightList": {
+                    "Flight": {
+                        "@attributes": {
+                            "FlightKey": "F1"
+                        },
+                        "SegmentReferences": "S3"
+                    }
+                },
+                "OriginDestinationList": {
+                    "OriginDestination": {
+                        "@attributes": {
+                            "OriginDestinationKey": "O1"
+                        },
+                        "DepartureCode": "DAC",
+                        "ArrivalCode": "DXB",
+                        "FlightReferences": "F1"
+                    }
+                },
+                "InstructionsList": {
+                    "Instruction": {
+                        "@attributes": {
+                            "ListKey": "I3"
+                        },
+                        "FreeFormTextInstruction": {
+                            "@attributes": {
+                                "refs": "S3"
+                            },
+                            "Remark": "ADD PASSPORT DTLS IN SSR DOCS CONTACT IN SSR CTCM CTCE"
+                        }
+                    }
+                },
+                "ServiceDefinitionList": {
+                    "ServiceDefinition": [
+                        {
+                            "@attributes": {
+                                "ServiceDefinitionID": "A-A-MILES-EK"
+                            },
+                            "Name": "MILES",
+                            "Encoding": {
+                                "RFIC": "A",
+                                "Type": "1",
+                                "Code": "A",
+                                "SubCode": "MILES"
+                            },
+                            "FeeMethod": "A",
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Text": "MILES",
+                                        "Application": "Details"
+                                    },
+                                    {
+                                        "Text": "Included",
+                                        "Application": "Type"
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": "F"
+                            },
+                            "BookingInstructions": {
+                                "Method": "API"
+                            },
+                            "ValidatingCarrier": "EK",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": "F"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "ServiceDefinitionID": "BASRV3167DB2C-CO"
+                            },
+                            "Name": "Carry On Bag Allowance",
+                            "BaggageAllowanceRef": "BA606C8C60-CO",
+                            "Descriptions": {
+                                "Description": {
+                                    "Text": "Carry On Bag Allowance"
+                                }
+                            }
+                        },
+                        {
+                            "@attributes": {
+                                "ServiceDefinitionID": "BASRV7BC31E20"
+                            },
+                            "Name": "Checked Bag Allowance",
+                            "BaggageAllowanceRef": "BA7721846C",
+                            "Descriptions": {
+                                "Description": {
+                                    "Text": "Checked Bag Allowance"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "PassengerMetadata": [
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M1"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "AddlName": [
+                                    {
+                                        "Name": "RAKIBMR",
+                                        "NameTypeCode": "EquivGivenName",
+                                        "PassengerRef": "T1"
+                                    },
+                                    {
+                                        "Name": "HASAN",
+                                        "NameTypeCode": "EquivSurname",
+                                        "PassengerRef": "T1"
+                                    },
+                                    {
+                                        "Name": "CHILDMSTR",
+                                        "NameTypeCode": "EquivGivenName",
+                                        "PassengerRef": "T2"
+                                    },
+                                    {
+                                        "Name": "TEST",
+                                        "NameTypeCode": "EquivSurname",
+                                        "PassengerRef": "T2"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M2"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "TravelerIDRef": "T1",
+                                    "AirlineCode": "EK",
+                                    "SSRCode": "DOCS",
+                                    "Text": "P/BD/A1235121/BD/24OCT91/M/25APR30/HASAN/RAKIB",
+                                    "ActionCode": "HK"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M3"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "TravelerIDRef": "T2",
+                                    "AirlineCode": "EK",
+                                    "SSRCode": "DOCS",
+                                    "Text": "P/BD/A1235124/BD/24MAY16/M/25APR30/TEST/CHILD",
+                                    "ActionCode": "HK"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M4"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "TravelerIDRef": "T2",
+                                    "AirlineCode": "EK",
+                                    "SSRCode": "CHLD",
+                                    "Text": "24MAY16",
+                                    "ActionCode": "HK"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M5"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "AirlineCode": "YY",
+                                    "SSRCode": "OTHS",
+                                    "Text": "RIDP/ WZ REF TO NBNKIS.E55XJB PLS CHK N VERIFY"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M6"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "AirlineCode": "YY",
+                                    "SSRCode": "OTHS",
+                                    "Text": "RIDP/ IF HOLDING DUPE BY 08DEC25 0816 DAC LT OR"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M7"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "AirlineCode": "YY",
+                                    "SSRCode": "OTHS",
+                                    "Text": "RIDP/ BKG WILL BE XXLD/EK"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M8"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "TravelerIDRef": "T1",
+                                    "SegmentIDRef": "S3",
+                                    "AirlineCode": "EK",
+                                    "SSRCode": "TKNE",
+                                    "Text": "1765763300335C1",
+                                    "ActionCode": "HK"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@attributes": {
+                            "MetadataKey": "M9"
+                        },
+                        "AugmentationPoint": {
+                            "AugPoint": {
+                                "SpecialServiceRequest": {
+                                    "TravelerIDRef": "T2",
+                                    "SegmentIDRef": "S3",
+                                    "AirlineCode": "EK",
+                                    "SSRCode": "TKNE",
+                                    "Text": "1765763300336C1",
+                                    "ActionCode": "HK"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "Other": {
+                    "OtherMetadata": [
+                        {
+                            "CurrencyMetadatas": {
+                                "CurrencyMetadata": [
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "BDT"
+                                        },
+                                        "Decimals": "0"
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "USD"
+                                        },
+                                        "Decimals": "2"
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "NUC"
+                                        },
+                                        "Decimals": "2"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "PriceMetadatas": {
+                                "PriceMetadata": [
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "FRKCD9D86BA"
+                                        },
+                                        "AugmentationPoint": {
+                                            "AugPoint": {
+                                                "FareRefKey": "NO8OPNQ~MVB8ODO~MqA9CJ~MqM9B@A~MpC8CVA~MEA9J@?NNAB0-MBB0~MRC8MBB0~M@E8K?@MO@C/~MRO8MCFM~MPN80~MOV9?CR~M?L8,/~MAT8ABS~MEI91~DB@A~A~A~DBW@~A~A~DCJ~A~DJ@?NNAB0~DABMB~D./././.0~D@BS~D41/277/2~D.~DB@A~A~A~DBW@~A~A~DCJ~A~DJ@?NNAB0~D/12~D/.0~D/./.7~D60/.~D1~D4R~DE~D*sqbeA5gnGNYO*flxKey"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "FRK8729BFF8"
+                                        },
+                                        "AugmentationPoint": {
+                                            "AugPoint": {
+                                                "FareRefKey": "NO8OPNQ~MVB8ODO~MqA9CJ~MqM9B@A~MpC8CVA~MEA9J@?NNAB0-MBB0~MRC8MBB0~M@E8K?@MO@C/~MRO8MCFM~MPN80~MOV9AML~M?L8,/~MAT8ABS~MEI91~DB@A~A~A~DBW@~A~A~DCJ~A~DJ@?NNAB0~DABMB~D./././.0~D@BS~D41/277/2~D.~DB@A~A~A~DBW@~A~A~DCJ~A~DJ@?NNAB0~D/12~D/.0~D/./.7~D60/.~D1~D4R~DE~D*sqbeA5gnGNYO*flxKey"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "TOUR5AA1D0BD"
+                                        },
+                                        "AugmentationPoint": {
+                                            "AugPoint": {
+                                                "TourCode": "ZZNDC2ZZ"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "FCALCA7D5631D"
+                                        },
+                                        "AugmentationPoint": {
+                                            "AugPoint": {
+                                                "FareCalculationInfo": {
+                                                    "AddInfoText": "DAC EK DXB Q2.60Q6.52 326.00LAAOPBD1/NDC2 NUC335.12END ROE1.000000"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "FCALC38AD926E"
+                                        },
+                                        "AugmentationPoint": {
+                                            "AugPoint": {
+                                                "FareCalculationInfo": {
+                                                    "AddInfoText": "DAC EK DXB Q1.95Q4.89 244.50LAAOPBD1CH/NDC2 NUC251.34END ROE1.000000"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "RuleMetadatas": {
+                                "RuleMetadata": [
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "RM6C7532A5"
+                                        },
+                                        "RuleID": "Change",
+                                        "Values": {
+                                            "Value": {
+                                                "Instruction": "Allowed"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@attributes": {
+                                            "MetadataKey": "RM7B326E57"
+                                        },
+                                        "RuleID": "Cancel",
+                                        "Values": {
+                                            "Value": {
+                                                "Instruction": "Allowed"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

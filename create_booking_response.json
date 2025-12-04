@@ -1,0 +1,1239 @@
+{
+    "status": "success",
+    "reason": "The booking has been successfully created, and it is associated with the Booking Id FL2504DELHAASL.",
+    "general": {
+        "service_type": "FLIGHT",
+        "service_details": "OneWay From DAC to DXB Departure date 2025-12-15",
+        "booking_remarks": null,
+        "generated_date": "2025-12-04",
+        "partner_id": "7",
+        "master_partner_id": "1",
+        "branch_id": "BDHE001",
+        "tracking_id": "71176484323917127WSD35",
+        "booking_id": "FL2504DELHAASL",
+        "airlines_pnr": "NBNKIS",
+        "supplier_confirmation_id": "EK176HDWDEWA7",
+        "supplier_others_id_a": "9DWDEW",
+        "supplier_others_id_b": null,
+        "member_id": "1",
+        "book_by": null,
+        "ip_address": "103.121.217.127",
+        "timestamp": "1764843315",
+        "last_update": "1764843315"
+    },
+    "voucher": {
+        "link": "https://sandbox.akijair.com/voucher/flight?q=NzExNzY0ODQzMjM5MTcxMjdXU0QzNQ==",
+        "pdf": "https://sandbox.akijair.com/voucher?q=eyJ0cmFja2luZ19pZCI6IjcxMTc2NDg0MzIzOTE3MTI3V1NEMzUiLCJwcmljZSI6ZmFsc2UsImxpbmtfZXhwaXJlIjoiMjAyNi0wMy0wNCJ9",
+        "pdf_with_price": "https://sandbox.akijair.com/voucher?q=eyJ0cmFja2luZ19pZCI6IjcxMTc2NDg0MzIzOTE3MTI3V1NEMzUiLCJwcmljZSI6dHJ1ZSwibGlua19leHBpcmUiOiIyMDI2LTAzLTA0In0="
+    },
+    "booking": {
+        "status": "success",
+        "booking_status": "hold",
+        "booking_supplier_status": null,
+        "ticket_status": "queue",
+        "payment_status": "pending",
+        "auto_cancel_status": "pending",
+        "auto_cancel": "2025-12-04 23:59:59",
+        "auto_cancel_timestamp": "1764871199",
+        "ticketingTimeLimit": "2025-12-04 23:59:59"
+    },
+    "price": {
+        "currency": "BDT",
+        "total_amount": "90057",
+        "sell_total_price": "90057",
+        "sales_comission": null,
+        "customer_markup_policy": null
+    },
+    "flight": {
+        "modify": {
+            "baggage": "yes",
+            "seat": "yes",
+            "meal": "yes",
+            "itinerary": "yes"
+        },
+        "search_parameter": {
+            "journey_type": "OneWay",
+            "segment": [
+                {
+                    "departure_airport_type": "AIRPORT",
+                    "departure_airport": "DAC",
+                    "arrival_airport_type": "AIRPORT",
+                    "arrival_airport": "DXB",
+                    "departure_date": "2025-12-15"
+                }
+            ],
+            "travelers_adult": 1,
+            "travelers_child": 1,
+            "travelers_child_age": [
+                9
+            ],
+            "travelers_infants": 0,
+            "travelers_infants_age": [],
+            "fare_type": null,
+            "fare_option": null,
+            "content_type": null,
+            "ptc_option": null,
+            "agency_ethnic_list": null,
+            "preferred_carrier": [],
+            "non_stop_flight": "any",
+            "baggage_option": "any",
+            "booking_class": "Economy",
+            "supplier_uid": "F1EC00009",
+            "partner_id": "7",
+            "language": "en",
+            "short_ref": "",
+            "version": null,
+            "team_profile": null
+        },
+        "departure": {
+            "date": "2025-12-15",
+            "time": "01:00"
+        },
+        "arrival": {
+            "date": "2025-12-15",
+            "time": "04:25"
+        },
+        "departure_airport": "DAC",
+        "departure_city": "Dhaka",
+        "arrival_airport": "DXB",
+        "arrival_city": "Dubai",
+        "flight_group": [
+            {
+                "group": 1,
+                "flight_key": "F1EC00009-0-0",
+                "no_of_stops_title": "Direct Flight",
+                "no_of_stops": 0,
+                "flight_time": "PT5H25M",
+                "transit_time": null,
+                "routes": [
+                    {
+                        "air_segment_key": "Isgm0200753315ec5",
+                        "origin": "DAC",
+                        "departure_time": "2025-12-15 01:00",
+                        "origin_terminal": "1",
+                        "origin_airport": {
+                            "name": "Hazrat Shahjalal International Airport",
+                            "city": "Dhaka",
+                            "country": "Bangladesh",
+                            "timezone": "Asia/Dhaka"
+                        },
+                        "destination": "DXB",
+                        "arrival_time": "2025-12-15 04:25",
+                        "destination_terminal": "3",
+                        "destination_airport": {
+                            "name": "Dubai International Airport",
+                            "city": "Dubai",
+                            "country": "United Arab Emirates",
+                            "timezone": "Asia/Dubai"
+                        },
+                        "flight_date": "2025-12-15",
+                        "flight_time": "PT05H25M",
+                        "distance": "2196",
+                        "lay_over": "not-applicable",
+                        "lay_over_date": "not-applicable",
+                        "aircraft": {
+                            "code": "77W",
+                            "name": "Boeing 777-300ER Passenger",
+                            "picture": "77W.png"
+                        },
+                        "operating": {
+                            "carrier": "EK",
+                            "carrier_name": "Emirates",
+                            "carrier_logo": "EK.png",
+                            "flight_number": "585"
+                        },
+                        "marketing": {
+                            "carrier": "EK",
+                            "carrier_name": "Emirates",
+                            "carrier_logo": "EK.png",
+                            "flight_number": "585"
+                        },
+                        "booking_class": {
+                            "cabin_class": "ECONOMY",
+                            "cabin_code": "Y",
+                            "booking_code": "L",
+                            "FareBasisCode": "LAAOPBD1CH",
+                            "meal_code": null,
+                            "seat_available": 5
+                        },
+                        "baggages": {
+                            "checked": {
+                                "ADT": {
+                                    "passenger_type": "ADT",
+                                    "baggage_type": "checked",
+                                    "pieceCount": null,
+                                    "weight": "40",
+                                    "unit": "kg",
+                                    "title": "40 kg"
+                                },
+                                "CNN": {
+                                    "passenger_type": "CNN",
+                                    "baggage_type": "checked",
+                                    "pieceCount": null,
+                                    "weight": "40",
+                                    "unit": "kg",
+                                    "title": "40 kg"
+                                }
+                            },
+                            "carry_on": {
+                                "ADT": {
+                                    "passenger_type": "ADT",
+                                    "baggage_type": "carry_on",
+                                    "pieceCount": "1",
+                                    "weight": null,
+                                    "unit": "pieces",
+                                    "title": "1 pieces"
+                                },
+                                "CNN": {
+                                    "passenger_type": "CNN",
+                                    "baggage_type": "carry_on",
+                                    "pieceCount": "1",
+                                    "weight": null,
+                                    "unit": "pieces",
+                                    "title": "1 pieces"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "price": {
+            "purchase": {
+                "total": {
+                    "currency": "BDT",
+                    "amount": 90057
+                },
+                "base_fare": {
+                    "currency": "BDT",
+                    "amount": 71921
+                },
+                "tax": {
+                    "currency": "BDT",
+                    "amount": 18136
+                },
+                "price_breakdown": [
+                    {
+                        "passenger_id": "1",
+                        "passenger_type": "ADT",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "51183"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "41115"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "10068"
+                        }
+                    },
+                    {
+                        "passenger_id": "2",
+                        "passenger_type": "CNN",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "38874"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "30806"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "8068"
+                        }
+                    }
+                ]
+            },
+            "sell": {
+                "total": {
+                    "currency": "BDT",
+                    "amount": 90057
+                },
+                "base_fare": {
+                    "currency": "BDT",
+                    "amount": 71921
+                },
+                "tax": {
+                    "currency": "BDT",
+                    "amount": 18136
+                },
+                "ticket_issue_charge": 0,
+                "price_breakdown": [
+                    {
+                        "passenger_id": "1",
+                        "passenger_type": "ADT",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "51183"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "41115"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "10068"
+                        },
+                        "cus_ticket_issue_charge": "0"
+                    },
+                    {
+                        "passenger_id": "2",
+                        "passenger_type": "CNN",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "38874"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "30806"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "8068"
+                        },
+                        "cus_ticket_issue_charge": "0"
+                    }
+                ]
+            },
+            "fmg": {
+                "total": {
+                    "currency": "BDT",
+                    "amount": 90057
+                },
+                "base_fare": {
+                    "currency": "BDT",
+                    "amount": 71921
+                },
+                "tax": {
+                    "currency": "BDT",
+                    "amount": 18136
+                },
+                "ticket_issue_charge": 0,
+                "price_breakdown": [
+                    {
+                        "passenger_id": "1",
+                        "passenger_type": "ADT",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "51183"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "41115"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "10068"
+                        },
+                        "ticket_issue_charge": "0"
+                    },
+                    {
+                        "passenger_id": "2",
+                        "passenger_type": "CNN",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "38874"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "30806"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "8068"
+                        },
+                        "ticket_issue_charge": "0"
+                    }
+                ]
+            },
+            "supplier": {
+                "total": {
+                    "currency": "BDT",
+                    "amount": 90057
+                },
+                "base_fare": {
+                    "currency": "BDT",
+                    "amount": 71921
+                },
+                "tax": {
+                    "currency": "BDT",
+                    "amount": 18136
+                },
+                "price_breakdown": [
+                    {
+                        "passenger_id": "1",
+                        "passenger_type": "ADT",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "51183"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "41115"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "10068"
+                        }
+                    },
+                    {
+                        "passenger_id": "2",
+                        "passenger_type": "CNN",
+                        "passenger_total": 1,
+                        "total": {
+                            "currency": "BDT",
+                            "amount": "38874"
+                        },
+                        "base_fare": {
+                            "currency": "BDT",
+                            "amount": "30806"
+                        },
+                        "tax": {
+                            "currency": "BDT",
+                            "amount": "8068"
+                        }
+                    }
+                ]
+            }
+        },
+        "customer_markup_policy": null,
+        "baggage": null,
+        "fare_rules": {
+            "refundable": "Review-FareRule",
+            "change_before_departure": "not-available"
+        }
+    },
+    "pax": {
+        "primary": {
+            "guest_name": "MR RAKIB HASAN",
+            "guest_email": "xx@xxx.com",
+            "guest_isd_code": null,
+            "guest_contact_no": "8801722222222",
+            "guest_nationality": "BD"
+        },
+        "data": [
+            {
+                "Id": "181716",
+                "timestamp": "1764843296",
+                "last_update": "1764843296",
+                "entry": "1",
+                "entry_n": null,
+                "ftm_partner_id": "7",
+                "master_partner_id": null,
+                "tracking_id": "71176484323917127WSD35",
+                "service_type": "FLIGHT",
+                "room_number": "1",
+                "pax_id": "1",
+                "passenger_id": "1",
+                "supplier_pax_id": "T1",
+                "pax_type": "ADT",
+                "paxType_Identity": "ADT",
+                "primary_ptc": "ADT",
+                "ptc_title": "Adult",
+                "gender": "M",
+                "title": "MR",
+                "first_name": "RAKIB",
+                "last_name": "HASAN",
+                "dob": "1991-10-24",
+                "pax_age": "34",
+                "nationality": "BD",
+                "doc_type": "passport",
+                "doc_country": "BD",
+                "doc_no": "A1235121",
+                "cnic": null,
+                "doc_dateofexpiry": "2030-04-25",
+                "doc_dateofissue": "2022-12-31",
+                "frequent_flyer_airlines": null,
+                "frequent_flyer": "21321313132",
+                "purpose_of_visit": null,
+                "special_request": "bla bla bla",
+                "residential_address": null,
+                "wheelchair_required": "no",
+                "isd_code": "880",
+                "contact_no": "1722222222",
+                "email_address": "xx@xxx.com",
+                "doc_pics": null,
+                "seat_number": null,
+                "baggage_option": null,
+                "meal_option": null,
+                "booking_id": null,
+                "ticket_number": null,
+                "ticket_status": null,
+                "ticket_issueTimeStamp": null,
+                "ticket_supplier_status": null,
+                "ticket_status_title": null,
+                "tktNumberValidation": "0",
+                "comission_type": "",
+                "comission_value": "",
+                "currency": "BDT",
+                "sell_total": "51183",
+                "sell_base_fare": "41115",
+                "sell_tax": "10068",
+                "sell_discount": "0",
+                "sell_ait": "0",
+                "sell_service_charge": "0",
+                "sell_gross_base_fare": "41115.00",
+                "sell_gross_tax": "10068.00",
+                "cus_ticket_issue_charge": "0",
+                "price_total": "51183",
+                "price_base_fare": "41115",
+                "price_tax": "10068",
+                "price_taxBreakdown_BD": "0",
+                "price_taxBreakdown_UT": "0",
+                "price_taxBreakdown_E5": "0",
+                "price_taxBreakdown_YQ": "0",
+                "price_taxBreakdown_YR": "0",
+                "price_taxBreakdown_Other": "0",
+                "price_discount": "0",
+                "price_ait": "0",
+                "price_service_charge": "0.00",
+                "price_gross_base_fare": "41115.00",
+                "price_gross_tax": "10068.00",
+                "ticket_issue_charge": "0",
+                "total_ticket_issue_charge": "0.00",
+                "supplier_currency": "BDT",
+                "currencyExchangeRate": "1.00",
+                "fmg_total": "51183",
+                "fmg_base_fare": "41115",
+                "fmg_tax": "10068",
+                "fmg_discount": "0",
+                "fmg_ait": "0",
+                "fmg_service_charge": "0.00",
+                "fmg_gross_base_fare": "41115.00",
+                "fmg_gross_tax": "10068.00",
+                "fmg_markup_type": null,
+                "fmg_charge": "0",
+                "fmg_revenue": "0.00",
+                "supplier_total": "51183",
+                "supplier_base_fare": "41115",
+                "supplier_tax": "10068",
+                "supplier_discount": "0",
+                "supplier_ait": "0",
+                "supplier_service_charge": "0.00",
+                "supplier_gross_base_fare": "41115.00",
+                "supplier_gross_tax": "10068.00",
+                "supplier_primary_commission": null,
+                "supplier_segment_feesCalculate": null,
+                "segment_discount_accountPurpose": null,
+                "supplier_per_segment_discount": "0",
+                "supplier_total_segment": "1",
+                "supplier_total_segment_discount": "0",
+                "gross_fare_total": "51183",
+                "gross_fare_base_fare": "41115",
+                "gross_fare_tax": "10068",
+                "gross_fare_tax_BD": "0",
+                "gross_fare_tax_UT": "0",
+                "gross_fare_tax_E5": "0",
+                "gross_fare_tax_YQ": "0",
+                "gross_fare_tax_YR": "0",
+                "gross_fare_tax_Other": "0",
+                "gross_fare_tax_breakDownJSON": "[]",
+                "gross_fare_discount_amount": "0",
+                "gross_fare_ait_amount": "0",
+                "gross_fare_service_charge": "0.00",
+                "custom_gross_discount": "0.00",
+                "custom_gross_charges": "0",
+                "custom_gross_service_fee": "0",
+                "custom_gross_markup": "0",
+                "applicable_comission_title": "",
+                "discount_comission_ratio": "0",
+                "discount_comission_type": "",
+                "dynamic_markup_type": null,
+                "dynamic_markup_title": "",
+                "dynamic_markup_ratio": null,
+                "passport_copy": null,
+                "beneficiary_name": null,
+                "beneficiary_relation": null,
+                "beneficiary_cnic": null,
+                "beneficiary_contact": null,
+                "beneficiary_address": null,
+                "spouse_adult_name": null,
+                "spouse_adult_dob": null,
+                "spouse_adult_passportno": null,
+                "child1_name": null,
+                "child1_dob": null,
+                "child1_passportno": null,
+                "child2_name": null,
+                "child2_dob": null,
+                "child2_passportno": null,
+                "child3_name": null,
+                "child3_dob": null,
+                "child3_passportno": null,
+                "child4_name": null,
+                "child4_dob": null,
+                "child4_passportno": null,
+                "policyNumber": null,
+                "policyVoucher": null,
+                "isVoid": "0",
+                "voidDate": null,
+                "voidTimestamp": null,
+                "isRefund": "0",
+                "refundDate": null,
+                "refundTimestamp": null,
+                "refundSupplerAmount": null,
+                "refundSupplerPenalty": null,
+                "refundCharge": null,
+                "refundAmount": null,
+                "refundPenalty": null
+            },
+            {
+                "Id": "181717",
+                "timestamp": "1764843296",
+                "last_update": "1764843296",
+                "entry": "1",
+                "entry_n": null,
+                "ftm_partner_id": "7",
+                "master_partner_id": null,
+                "tracking_id": "71176484323917127WSD35",
+                "service_type": "FLIGHT",
+                "room_number": "1",
+                "pax_id": "2",
+                "passenger_id": "2",
+                "supplier_pax_id": "C1",
+                "pax_type": "CNN",
+                "paxType_Identity": "C11",
+                "primary_ptc": "CNN",
+                "ptc_title": "Child",
+                "gender": "M",
+                "title": "MSTR",
+                "first_name": "CHILD",
+                "last_name": "TEST",
+                "dob": "2016-05-24",
+                "pax_age": "9",
+                "nationality": "BD",
+                "doc_type": "passport",
+                "doc_country": "BD",
+                "doc_no": "A1235124",
+                "cnic": null,
+                "doc_dateofexpiry": "2030-04-25",
+                "doc_dateofissue": "2022-12-31",
+                "frequent_flyer_airlines": null,
+                "frequent_flyer": "21321313132",
+                "purpose_of_visit": null,
+                "special_request": "bla bla bla",
+                "residential_address": null,
+                "wheelchair_required": "no",
+                "isd_code": "880",
+                "contact_no": "1722222222",
+                "email_address": "xx@xxx.com",
+                "doc_pics": null,
+                "seat_number": null,
+                "baggage_option": null,
+                "meal_option": null,
+                "booking_id": null,
+                "ticket_number": null,
+                "ticket_status": null,
+                "ticket_issueTimeStamp": null,
+                "ticket_supplier_status": null,
+                "ticket_status_title": null,
+                "tktNumberValidation": "0",
+                "comission_type": "",
+                "comission_value": "",
+                "currency": "BDT",
+                "sell_total": "38874",
+                "sell_base_fare": "30806",
+                "sell_tax": "8068",
+                "sell_discount": "0",
+                "sell_ait": "0",
+                "sell_service_charge": "0",
+                "sell_gross_base_fare": "30806.00",
+                "sell_gross_tax": "8068.00",
+                "cus_ticket_issue_charge": "0",
+                "price_total": "38874",
+                "price_base_fare": "30806",
+                "price_tax": "8068",
+                "price_taxBreakdown_BD": "0",
+                "price_taxBreakdown_UT": "0",
+                "price_taxBreakdown_E5": "0",
+                "price_taxBreakdown_YQ": "0",
+                "price_taxBreakdown_YR": "0",
+                "price_taxBreakdown_Other": "0",
+                "price_discount": "0",
+                "price_ait": "0",
+                "price_service_charge": "0.00",
+                "price_gross_base_fare": "30806.00",
+                "price_gross_tax": "8068.00",
+                "ticket_issue_charge": "0",
+                "total_ticket_issue_charge": "0.00",
+                "supplier_currency": "BDT",
+                "currencyExchangeRate": "1.00",
+                "fmg_total": "38874",
+                "fmg_base_fare": "30806",
+                "fmg_tax": "8068",
+                "fmg_discount": "0",
+                "fmg_ait": "0",
+                "fmg_service_charge": "0.00",
+                "fmg_gross_base_fare": "30806.00",
+                "fmg_gross_tax": "8068.00",
+                "fmg_markup_type": null,
+                "fmg_charge": "0",
+                "fmg_revenue": "0.00",
+                "supplier_total": "38874",
+                "supplier_base_fare": "30806",
+                "supplier_tax": "8068",
+                "supplier_discount": "0",
+                "supplier_ait": "0",
+                "supplier_service_charge": "0.00",
+                "supplier_gross_base_fare": "30806.00",
+                "supplier_gross_tax": "8068.00",
+                "supplier_primary_commission": null,
+                "supplier_segment_feesCalculate": null,
+                "segment_discount_accountPurpose": null,
+                "supplier_per_segment_discount": "0",
+                "supplier_total_segment": "1",
+                "supplier_total_segment_discount": "0",
+                "gross_fare_total": "38874",
+                "gross_fare_base_fare": "30806",
+                "gross_fare_tax": "8068",
+                "gross_fare_tax_BD": "0",
+                "gross_fare_tax_UT": "0",
+                "gross_fare_tax_E5": "0",
+                "gross_fare_tax_YQ": "0",
+                "gross_fare_tax_YR": "0",
+                "gross_fare_tax_Other": "0",
+                "gross_fare_tax_breakDownJSON": "[]",
+                "gross_fare_discount_amount": "0",
+                "gross_fare_ait_amount": "0",
+                "gross_fare_service_charge": "0.00",
+                "custom_gross_discount": "0.00",
+                "custom_gross_charges": "0",
+                "custom_gross_service_fee": "0",
+                "custom_gross_markup": "0",
+                "applicable_comission_title": "",
+                "discount_comission_ratio": "0",
+                "discount_comission_type": "",
+                "dynamic_markup_type": null,
+                "dynamic_markup_title": "",
+                "dynamic_markup_ratio": null,
+                "passport_copy": null,
+                "beneficiary_name": null,
+                "beneficiary_relation": null,
+                "beneficiary_cnic": null,
+                "beneficiary_contact": null,
+                "beneficiary_address": null,
+                "spouse_adult_name": null,
+                "spouse_adult_dob": null,
+                "spouse_adult_passportno": null,
+                "child1_name": null,
+                "child1_dob": null,
+                "child1_passportno": null,
+                "child2_name": null,
+                "child2_dob": null,
+                "child2_passportno": null,
+                "child3_name": null,
+                "child3_dob": null,
+                "child3_passportno": null,
+                "child4_name": null,
+                "child4_dob": null,
+                "child4_passportno": null,
+                "policyNumber": null,
+                "policyVoucher": null,
+                "isVoid": "0",
+                "voidDate": null,
+                "voidTimestamp": null,
+                "isRefund": "0",
+                "refundDate": null,
+                "refundTimestamp": null,
+                "refundSupplerAmount": null,
+                "refundSupplerPenalty": null,
+                "refundCharge": null,
+                "refundAmount": null,
+                "refundPenalty": null
+            }
+        ]
+    },
+    "partner": {
+        "agency_isd_code": "880",
+        "agency_contact_no": "1722222222",
+        "agency_email": "demo@example.com",
+        "contact": {
+            "person_name": "Sandbox Partner",
+            "isd_code": "93",
+            "number": "01332509855",
+            "email": "sandbox@innovatesolution.com"
+        },
+        "partner_id": "7",
+        "master_partner_id": "1",
+        "partner_type": "AGENT",
+        "partner_profile_code": "SAN",
+        "branch_id": "BDHE001",
+        "brand_name": "Sandbox Partner",
+        "tag_line": "Welcome to Sandbox Partner",
+        "legal_name": "Sandbox Partner",
+        "city": "Dhaka",
+        "state": "Dhaka",
+        "postal_code": "1216",
+        "address": "Pallabi Mirpur",
+        "country": "BD",
+        "website": null,
+        "customer_hotline": null,
+        "support_email": "sandbox@innovatesolution.com",
+        "customer_support_email": "sandbox@innovatesolution.com",
+        "priavcy_link": null,
+        "terms_link": null,
+        "logo_1440_448": "https://cdn.innovategrid.com/akijairsandbox/partner-brand-logo/111745817454763807.webp",
+        "logo_224_224": "https://cdn.innovategrid.com/akijairsandbox/partner-brand-logo/111745817457196574.webp",
+        "logo_1024_1024": "https://cdn.innovategrid.com/akijairsandbox/partner-brand-logo/111745817460300335.webp",
+        "logo_400_400": "https://cdn.innovategrid.com/akijairsandbox/partner-brand-logo/111745817463551308.webp",
+        "logo_512_512": "https://cdn.innovategrid.com/akijairsandbox/partner-brand-logo/111745817467104237.webp",
+        "logo_1706_256": "https://cdn.innovategrid.com/akijairsandbox/partner-brand-logo/111745817444300772.webp",
+        "partner_from_email_address": "noreply@akijair.email",
+        "partner_from_email_full_name": "AkijAir Sandbox"
+    },
+    "brand_color": "#d55221",
+    "brand_text_color": "#ffffff",
+    "supplier": {
+        "info": {
+            "supplier_type": null,
+            "supplier_title": null,
+            "supplier_code": null,
+            "supplier_uid": null,
+            "supplier_partner_code": null,
+            "supplier_timezone": null,
+            "currency": null,
+            "notification_email": null,
+            "supplier_fare_rules": null,
+            "airlines_comission": null
+        },
+        "price": {
+            "supplier_currency": null,
+            "flight_price": null,
+            "fmg_price": null,
+            "revenue": null,
+            "total_passenger": null,
+            "ticket_issue_charge": null,
+            "total_ticket_issue_charge": null,
+            "purchase": null,
+            "fmg": null,
+            "supplier_fare_policy": null,
+            "currency_exchange_data": {
+                "agent_currency": "BDT",
+                "partner_currency_data": {
+                    "from_currency_list": [
+                        "BDT",
+                        "USD",
+                        "EUR",
+                        "PKR"
+                    ],
+                    "to_currency_list": [
+                        "BDT",
+                        "USD",
+                        "EUR",
+                        "PKR"
+                    ],
+                    "filter_data": {
+                        "BDT": [
+                            {
+                                "from_currency": "BDT",
+                                "to_currency": "BDT",
+                                "exchange_rate": "1",
+                                "markup_percentage": "0",
+                                "markup_fixed": "0",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "BDT",
+                                "to_currency": "USD",
+                                "exchange_rate": "0.0082370000",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.0",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "BDT",
+                                "to_currency": "EUR",
+                                "exchange_rate": "0.0076385904",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "BDT",
+                                "to_currency": "PKR",
+                                "exchange_rate": "2.3102433718",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            }
+                        ],
+                        "USD": [
+                            {
+                                "from_currency": "USD",
+                                "to_currency": "USD",
+                                "exchange_rate": "1",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "USD",
+                                "to_currency": "BDT",
+                                "exchange_rate": "121.0210508734",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "USD",
+                                "to_currency": "EUR",
+                                "exchange_rate": "0.9244302408",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            }
+                        ],
+                        "EUR": [
+                            {
+                                "from_currency": "EUR",
+                                "to_currency": "EUR",
+                                "exchange_rate": "1",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "EUR",
+                                "to_currency": "BDT",
+                                "exchange_rate": "130.9142058911",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "EUR",
+                                "to_currency": "USD",
+                                "exchange_rate": "1.0817473898",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            }
+                        ],
+                        "PKR": [
+                            {
+                                "from_currency": "PKR",
+                                "to_currency": "BDT",
+                                "exchange_rate": "0.4328548292",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "PKR",
+                                "to_currency": "PKR",
+                                "exchange_rate": "1",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            },
+                            {
+                                "from_currency": "PKR",
+                                "to_currency": "USD",
+                                "exchange_rate": "0.0035766904",
+                                "markup_percentage": "0.00",
+                                "markup_fixed": "0.00",
+                                "status": "active"
+                            }
+                        ]
+                    },
+                    "all_currency": [
+                        {
+                            "Id": "1",
+                            "timestamp": "1745814992",
+                            "last_update": "1753939124",
+                            "entry": "1",
+                            "entry_n": "System",
+                            "ip": null,
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "BDT",
+                            "to_currency": "BDT",
+                            "exchange_rate": "1",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0",
+                            "markup_fixed": "0",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "2",
+                            "timestamp": "1747314602",
+                            "last_update": "1753939127",
+                            "entry": "6",
+                            "entry_n": "Golom Shahrier",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "USD",
+                            "to_currency": "USD",
+                            "exchange_rate": "1",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "3",
+                            "timestamp": "1747314616",
+                            "last_update": "1756718123",
+                            "entry": "6",
+                            "entry_n": "Golom Shahrier",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "BDT",
+                            "to_currency": "USD",
+                            "exchange_rate": "0.0082370000",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.0",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "4",
+                            "timestamp": "1747314626",
+                            "last_update": "1753939141",
+                            "entry": "6",
+                            "entry_n": "Golom Shahrier",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "USD",
+                            "to_currency": "BDT",
+                            "exchange_rate": "121.0210508734",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "5",
+                            "timestamp": "1753939072",
+                            "last_update": "1753939145",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "EUR",
+                            "to_currency": "EUR",
+                            "exchange_rate": "1",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "6",
+                            "timestamp": "1753939076",
+                            "last_update": "1753939136",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "EUR",
+                            "to_currency": "BDT",
+                            "exchange_rate": "130.9142058911",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "7",
+                            "timestamp": "1753939083",
+                            "last_update": "1753939151",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "BDT",
+                            "to_currency": "EUR",
+                            "exchange_rate": "0.0076385904",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "8",
+                            "timestamp": "1753939090",
+                            "last_update": "1753939156",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "USD",
+                            "to_currency": "EUR",
+                            "exchange_rate": "0.9244302408",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "9",
+                            "timestamp": "1753939113",
+                            "last_update": "1753939162",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "no",
+                            "from_currency": "EUR",
+                            "to_currency": "USD",
+                            "exchange_rate": "1.0817473898",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "10",
+                            "timestamp": "1753939486",
+                            "last_update": "1753939486",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "yes",
+                            "from_currency": "PKR",
+                            "to_currency": "BDT",
+                            "exchange_rate": "0.4328548292",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "11",
+                            "timestamp": "1753939491",
+                            "last_update": "1753939491",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "yes",
+                            "from_currency": "PKR",
+                            "to_currency": "PKR",
+                            "exchange_rate": "1",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "12",
+                            "timestamp": "1753939495",
+                            "last_update": "1753939495",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "yes",
+                            "from_currency": "BDT",
+                            "to_currency": "PKR",
+                            "exchange_rate": "2.3102433718",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        },
+                        {
+                            "Id": "13",
+                            "timestamp": "1753939505",
+                            "last_update": "1753939505",
+                            "entry": "1",
+                            "entry_n": "Saaqeb Nayeem",
+                            "ip": "203.76.126.193",
+                            "ftm_partner_id": "1",
+                            "currency_auto_update": "yes",
+                            "from_currency": "PKR",
+                            "to_currency": "USD",
+                            "exchange_rate": "0.0035766904",
+                            "last_day_exchange_rate": null,
+                            "markup_percentage": "0.00",
+                            "markup_fixed": "0.00",
+                            "status": "active",
+                            "expire_timestamp": null,
+                            "api_last_update": null,
+                            "xe_data_json": null,
+                            "xe_rate_datetime": null
+                        }
+                    ]
+                }
+            }
+        },
+        "terms": {
+            "status": null,
+            "text": null
+        }
+    },
+    "terms": {
+        "status": null,
+        "text": null
+    },
+    "cancellation_terms": {
+        "status": null,
+        "text": null
+    }
+}

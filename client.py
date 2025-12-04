@@ -94,7 +94,6 @@ class FlightSearchClient:
             return None
         
 
-
     def validate_flight(self,
                 data: List[Dict],
         ):
@@ -103,7 +102,7 @@ class FlightSearchClient:
             "result_type": "general",
             "data": data
         }
-        print(json.dumps(request_body, indent=4))
+        # print(json.dumps(request_body, indent=4))
         try:
             response = requests.post(f"{self.base_url}/flight/validate", 
                                      json=request_body, 
@@ -121,3 +120,162 @@ class FlightSearchClient:
             return None
 
 
+    def get_validation_status(self, booking_tracking_id: str):
+        request_body = {
+            "booking_tracking_id": booking_tracking_id,
+            "member_id": "1"
+        }
+        try:
+            response = requests.post(f"{self.base_url}/flight/validation-get-status", 
+                                     json=request_body, 
+                                     headers=self.headers)
+            if response:
+                write_response_to_file(
+                    response=response.json(),
+                    filename="validation_status_response"
+                )
+            else:
+                print("No data found")
+                return None
+        except Exception as e:
+            print(f"Error during getting validation status: {e}")
+            return None
+        
+
+    def update_traveller_info(self,
+                              booking_tracking_id: str,
+                              save_pax: str,
+                              passenger: List[Dict]
+                              ):
+        if save_pax not in ["yes", "no"]:
+            save_pax = "no"
+        
+        if not passenger:
+            return print("At least one passenger information is required.")
+        
+        request_body = {
+            "booking_tracking_id": booking_tracking_id,
+            "member_id": "1",
+            "save_pax": save_pax,
+            "passenger": passenger
+        }
+
+        try:
+            response = requests.post(f"{self.base_url}/flight/update-travellers", 
+                                     json=request_body, 
+                                     headers=self.headers)
+            if response:
+                write_response_to_file(
+                    response=response.json(),
+                    filename="update_traveller_info_response"
+                )
+            else:
+                print("No data found")
+                return None
+        except Exception as e:
+            print(f"Error during updating traveller info: {e}")
+            return None
+        
+    
+    def create_booking(self,
+                       booking_tracking_id: str,
+                       isd_code: str,
+                       contact_no: str,
+                       email_address: str,
+                       payment_type: str,
+                       isPartialPay: str,
+                       ):
+        
+        isPartialPay = isPartialPay if isPartialPay in ["yes", "no"] else "no"
+        request_body = {
+            "booking_tracking_id": booking_tracking_id,
+            "member_id": "1",
+            "isd_code": isd_code,
+            "contact_no": contact_no,
+            "email_address": email_address,
+            "payment_type": payment_type,
+            "isPartialPay": isPartialPay,
+            "redirect_url": "https://flight.ittbooking.com/return"
+        }
+        try:
+            response = requests.post(f"{self.base_url}/flight/create-booking", 
+                                     json=request_body, 
+                                     headers=self.headers)
+            if response:
+                write_response_to_file(
+                    response=response.json(),
+                    filename="create_booking_response"
+                )
+            else:
+                print("No data found")
+                return None
+        except Exception as e:
+            print(f"Error during creating booking: {e}")
+            return None
+
+
+    def get_booking_details(self,
+                            tracking_id: str,
+                            booking_id: str
+                            ):
+        
+        request_body = {
+            "tracking_id": tracking_id,
+            "booking_id": booking_id,
+            "member_id": "1"
+        }
+
+        try:
+            response = requests.post(f"{self.base_url}/booking-details", 
+                                     json=request_body, 
+                                     headers=self.headers)
+            if response:
+                write_response_to_file(
+                    response=response.json(),
+                    filename="booking_details_response"
+                )
+            else:
+                print("No data found")
+                return None
+        except Exception as e:
+            print(f"Error during getting booking details: {e}")
+            return None
+
+
+    def issue_ticket(self,
+            tracking_id: str,
+            price_change_accepted: str,
+            isPartialPay: str,
+            notes: Optional[str],
+            by_pass_partner_balance: str,
+        ):
+        
+        price_change_accepted = price_change_accepted if price_change_accepted in ["yes", "no"] else "no"
+        isPartialPay = isPartialPay if isPartialPay in ["yes", "no"] else "no"
+        by_pass_partner_balance = by_pass_partner_balance if by_pass_partner_balance in ["yes", "no"] else "no"
+        notes = notes if notes else ""
+
+        request_body = {
+            "member_id": "1",
+            "tracking_id": tracking_id,
+            "price_change_accepted": price_change_accepted,
+            "isPartialPay": isPartialPay,
+            "notes": notes,
+            "by_pass_partner_balance": by_pass_partner_balance
+        }
+
+        try:
+            response = requests.post(f"{self.base_url}/flight/issue-ticket", 
+                                     json=request_body, 
+                                     headers=self.headers)
+            if response:
+                write_response_to_file(
+                    response=response.json(),
+                    filename="issue_ticket_response"
+                )
+            else:
+                print("No data found")
+                return None
+        except Exception as e:
+            print(f"Error during issuing ticket: {e}")
+            return None

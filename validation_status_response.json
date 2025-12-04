@@ -1,17 +1,14 @@
 {
     "status": "success",
-    "is_warning": "no",
+    "re_price_status": null,
     "reason": null,
     "reason_admin": null,
-    "search": {
-        "tracking_id": "71176484320417127YUTQ9",
-        "flight_key": "F1EC00009-0",
-        "filter_unique_filter_code": "dac202512150100dxb202512150425585"
-    },
-    "booking_tracking_id": "71176484323917127WSD35",
-    "tracking_id": "71176484320417127YUTQ9",
-    "flight_key": "F1EC00009-0",
     "price_change": "up",
+    "tracking_id": "71176484320417127YUTQ9",
+    "booking_tracking_id": "71176484323917127WSD35",
+    "flight_key": "F1EC00009-0",
+    "currency": "BDT",
+    "total_amount": 90057,
     "search_price": {
         "currency": "BDT",
         "amount": null
@@ -30,6 +27,12 @@
         "reissue": 0,
         "void": 0,
         "refund": 0
+    },
+    "resources": {
+        "base_url": {
+            "carrier": "https://airlines-resources.s3.ap-southeast-1.amazonaws.com/icon",
+            "aircraft": "https://airlines-resources.s3.ap-southeast-1.amazonaws.com/aircraft"
+        }
     },
     "data": {
         "tracking_id": "71176484323917127WSD35",
@@ -94,7 +97,8 @@
             "pax_email_contact_selection": "active",
             "pax_save_option": "active",
             "terms_selection": "check",
-            "cancellation_selection": "check"
+            "cancellation_selection": "check",
+            "baggage_protection_selection_required": "disable"
         },
         "flight_group": [
             {
@@ -396,14 +400,6 @@
         "destination_reach_time": "PT",
         "destination_reach_timestamp": null
     },
-    "terms": {
-        "status": "disable",
-        "text": null
-    },
-    "cancellation_terms": {
-        "status": "disable",
-        "text": null
-    },
     "search_parameter": {
         "journey_type": "OneWay",
         "segment": [
@@ -439,10 +435,45 @@
         "team_profile": null
     },
     "isDomestic_Flight": false,
-    "passenger_data": null,
-    "available_addon_service": {
-        "baggage_option": null,
-        "seat_option_option": null,
-        "meal": null
+    "passenger_data": [],
+    "seat_selection_required": null,
+    "meal_selection_required": null,
+    "baggage_selection_required": null,
+    "baggage_data": [],
+    "meal_data": [],
+    "seat_data": [],
+    "baggage_protection_selection_required": "disable",
+    "baggage_protection_data": [],
+    "discount_data": [],
+    "ancillary_services_validation": {
+        "total_travelers_adult": 1,
+        "total_travelers_child": 1,
+        "baggage": {
+            "required": null,
+            "adult_validation": true,
+            "child_validation": true
+        },
+        "meal": {
+            "required": null,
+            "adult_validation": true,
+            "child_validation": true
+        },
+        "seat": {
+            "required": null,
+            "adult_validation": true,
+            "child_validation": true
+        },
+        "baggage_protection": {
+            "required": "disable",
+            "validation": true
+        }
+    },
+    "terms": {
+        "status": "disable",
+        "text": null
+    },
+    "cancellation_terms": {
+        "status": "disable",
+        "text": null
     }
 }
